@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CantPay.App">
+    <Application.Resources>
+    <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="NormalFont" Android="Early GameBoy.ttf#Early GameBoy" iOS="Early GameBoy"/>
+            
+            <!--
+                NO UWP SUPPORT?        
+        
+            UWP="/Assets/Early GameBoy.ttf#Early GameBoy"-->
+            <!--<On Platform="Android" Value="Early GameBoy.ttf#Early GameBoy" />-->
+
+            <!--<On Platform="UWP" Value="/Assets/Early GameBoy.ttf#Early GameBoy" />
+                <On Platform="iOS" Value="Early GameBoy" />-->
+
+         
+
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

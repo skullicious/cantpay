@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CantPay"
+             x:Class="CantPay.MainPage">
+
+    <StackLayout BackgroundColor="#a6e54c">
+     
+        <Label     HorizontalOptions="Center" Margin="10" TextColor="#0f380f"
+           VerticalOptions="CenterAndExpand" Text="Can't Pay? We'll Take It Away!" FontFamily="{StaticResource NormalFont}" />
+    
+    </StackLayout>
+
+</ContentPage>
