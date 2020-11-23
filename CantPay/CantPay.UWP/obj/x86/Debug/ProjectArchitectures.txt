@@ -1,1 +1,0 @@
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\CantPay.UWP.csproj;x86

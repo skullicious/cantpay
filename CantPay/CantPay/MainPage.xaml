@@ -4,11 +4,29 @@
              xmlns:local="clr-namespace:CantPay"
              x:Class="CantPay.MainPage">
 
-    <StackLayout BackgroundColor="#a6e54c">
-     
-        <Label     HorizontalOptions="Center" Margin="10" TextColor="#0f380f"
-           VerticalOptions="CenterAndExpand" Text="Can't Pay? We'll Take It Away!" FontFamily="{StaticResource NormalFont}" />
-    
+    <StackLayout BackgroundColor="#a6e54c">    
+            <Image x:Name="splashImage" 
+               Aspect="AspectFit" 
+               HorizontalOptions="FillAndExpand"
+               Margin="0,100,0,100"
+               />
+        <Label     HorizontalOptions="Center" 
+                   Margin="10" 
+                   TextColor="#0f380f"
+           VerticalOptions="CenterAndExpand" 
+                   Text="Can't Pay? We'll Take It Away!" 
+                   FontFamily="{StaticResource NormalFont}" />
+        <Button x:Name="playButton" 
+                Text="Play!" FontFamily="{StaticResource NormalFont}" 
+                Margin="150,50,150,200"
+                BackgroundColor="#8bac0f" 
+                TextColor="#0f380f" 
+                BorderRadius="1" 
+                BorderColor="#306230"
+                BorderWidth="2"    
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"
+                />
     </StackLayout>
 
 </ContentPage>

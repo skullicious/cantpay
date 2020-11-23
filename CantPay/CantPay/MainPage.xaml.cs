@@ -12,6 +12,15 @@ namespace CantPay
         public MainPage()
         {
             InitializeComponent();
+
+            var assembly = typeof(MainPage);
+
+            splashImage.Source = ImageSource.FromResource("CantPay.Assets.Images.splashimage.png", assembly);
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MenuPage());
         }
     }
 }
