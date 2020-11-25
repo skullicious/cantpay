@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CantPay"
-             x:Class="CantPay.MainPage">
+             x:Class="CantPay.MainPage"
+             NavigationPage.HasNavigationBar="false">
 
     <StackLayout BackgroundColor="#a6e54c">    
             <Image x:Name="splashImage" 
@@ -10,14 +11,14 @@
                HorizontalOptions="FillAndExpand"
                Margin="0,100,0,100"
                />
-        <Label     HorizontalOptions="Center" 
-                   Margin="10" 
-                   TextColor="#0f380f"
-           VerticalOptions="CenterAndExpand" 
-                   Text="Can't Pay? We'll Take It Away!" 
-                   FontFamily="{StaticResource NormalFont}" />
+            <Label     HorizontalOptions="Center" 
+                       Margin="10" 
+                       TextColor="#0f380f"
+                       VerticalOptions="CenterAndExpand" 
+                       Text="Can't Pay? We'll Take It Away!" 
+                       FontFamily="{StaticResource NormalFont}" />
         <Button x:Name="playButton" 
-                Text="Play!" FontFamily="{StaticResource NormalFont}" 
+                Text="Start!" FontFamily="{StaticResource NormalFont}" 
                 Margin="150,50,150,200"
                 BackgroundColor="#8bac0f" 
                 TextColor="#0f380f" 

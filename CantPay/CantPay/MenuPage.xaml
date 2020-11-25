@@ -1,16 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CantPay.MenuPage">
+             x:Class="CantPay.MenuPage"
+             x:Name="BindingAnchor"
+             NavigationPage.HasNavigationBar="false">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#a6e54c">
-            <Label TextColor="#0f380f" 
-                   Text="Welcome to Xamarin.Forms!"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand" 
-                   FontFamily="{StaticResource NormalFont}"/>
-
-
+        <StackLayout BackgroundColor="#a6e54c"> 
             <CollectionView ItemsSource="{Binding ObservedMenuItems}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"
@@ -19,16 +14,27 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BackgroundColor="#a6e54c" Padding="10" WidthRequest="120" HeightRequest="120">
-                            <Frame BackgroundColor="#8bac0f"  WidthRequest="100" 
-                                   HeightRequest="100" 
-                                   HasShadow="True" 
-                                   CornerRadius="10" Padding="10" 
-                                   VerticalOptions="FillAndExpand" 
-                                   HorizontalOptions="FillAndExpand" >
+                           
+                                <Frame BackgroundColor="#8bac0f"  WidthRequest="100" 
+                                HeightRequest="100" 
+                                HasShadow="True" 
+                                CornerRadius="10" Padding="10" 
+                                VerticalOptions="FillAndExpand" 
+                                HorizontalOptions="FillAndExpand" >
 
+                                <Frame.GestureRecognizers>
+                                   <TapGestureRecognizer Command="{Binding Source={x:Reference BindingAnchor}, Path=BindingContext.NavCommand}" CommandParameter="{Binding NavigationTarget}" NumberOfTapsRequired="1"/>                                  
+                                </Frame.GestureRecognizers>
+
+                              
                                 <Image Source="{Binding BgImageSource}" WidthRequest="100" HeightRequest="100" />
-                                <Label Text="{Binding Title}" WidthRequest="100" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"  FontFamily="{StaticResource NormalFont}"  />
-                            </Frame>
+
+                                <Label Text="{Binding Title}" WidthRequest="100" HorizontalTextAlignment="Center" 
+                                VerticalTextAlignment="Center"  
+                                FontFamily="{StaticResource NormalFont}"   
+                                TextColor="#0f380f"  />
+                                    
+                            </Frame>                       
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

@@ -6,6 +6,6 @@ namespace CantPay.Interfaces
 {
     public interface INavigable
     {
-        void Navigate();
+        void Navigate (object page);
     }
 }

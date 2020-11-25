@@ -6,7 +6,7 @@ using System.Windows.Input;
 
 namespace CantPay.ViewModel.Commands
 {
-    class NavigationCommand : ICommand
+    public class NavigationCommand : ICommand
     {
 
         INavigable navigablePage;
@@ -27,8 +27,9 @@ namespace CantPay.ViewModel.Commands
         }
 
         public void Execute(object parameter)
-        {
-            navigablePage.Navigate();
+        {          
+         
+            navigablePage.Navigate(parameter);
         }
     }
 }

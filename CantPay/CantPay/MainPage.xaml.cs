@@ -13,6 +13,8 @@ namespace CantPay
         {
             InitializeComponent();
 
+            NavigationPage.SetHasNavigationBar(this, false);
+
             var assembly = typeof(MainPage);
 
             splashImage.Source = ImageSource.FromResource("CantPay.Assets.Images.splashimage.png", assembly);
