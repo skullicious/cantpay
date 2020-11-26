@@ -365,11 +365,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -911,11 +926,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -1458,11 +1488,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -2002,11 +2047,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -2548,11 +2608,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -3095,11 +3170,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -3641,11 +3731,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -4188,11 +4293,26 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/4.8.0.1687": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1687"
+        },
+        "compile": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0.16299/Xamarin.Forms.Maps.dll": {}
+        }
+      },
       "CantPay/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "4.8.0.1687"
+          "Xamarin.Forms": "4.8.0.1687",
+          "Xamarin.Forms.Maps": "4.8.0.1687"
         },
         "compile": {
           "bin/placeholder/CantPay.dll": {}
@@ -9007,6 +9127,43 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/4.8.0.1687": {
+      "sha512": "V3M5BvKl8ZhNqraT5sp1nSP7qYvxdDtwhUwLgWwLRnV03rhe475hcdCnk0xWeEoFQi05hvRyCQvr/TOGQbgUmg==",
+      "type": "package",
+      "path": "xamarin.forms.maps/4.8.0.1687",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.4.8.0.1687.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "CantPay/1.0.0": {
       "type": "project",
       "path": "../CantPay/CantPay.csproj",
@@ -9017,7 +9174,8 @@
     "UAP,Version=v10.0.16299": [
       "CantPay >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.11",
-      "Xamarin.Forms >= 4.8.0.1687"
+      "Xamarin.Forms >= 4.8.0.1687",
+      "Xamarin.Forms.Maps >= 4.8.0.1687"
     ]
   },
   "packageFolders": {
@@ -9069,6 +9227,10 @@
             "version": "[6.2.11, )"
           },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.8.0.1687, )"
+          },
+          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[4.8.0.1687, )"
           }

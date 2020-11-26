@@ -19,7 +19,12 @@ namespace CantPay.UWP
     {
         public MainPage()
         {
+            // BING KEY 
+            // 88oaL9fxECEGV8mqWUWJ~gYs6QIjzv5f8BYeXK_WX9A~AswlvpKDVhmRMasv-bOy-dE-NEf7_eJeMWC1pV1CkrGmqB9O7YvjbA2olgbKT4LY
+
             this.InitializeComponent();
+
+            Xamarin.FormsMaps.Init("88oaL9fxECEGV8mqWUWJ~gYs6QIjzv5f8BYeXK_WX9A~AswlvpKDVhmRMasv-bOy-dE-NEf7_eJeMWC1pV1CkrGmqB9O7YvjbA2olgbKT4LY"); // https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/map/setup#universal-windows-platform
 
             LoadApplication(new CantPay.App());
         }

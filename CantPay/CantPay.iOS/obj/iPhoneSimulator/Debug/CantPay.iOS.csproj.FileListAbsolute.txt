@@ -1,8 +1,0 @@
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\CantPay.iOS.csprojAssemblyReference.cache
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.iOS\obj\iPhoneSimulator\Debug\CantPay.iOS.csproj.CoreCompileInputs.cache

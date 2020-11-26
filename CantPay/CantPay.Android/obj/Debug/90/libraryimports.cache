@@ -32,6 +32,10 @@
     <ManifestDocument>obj\Debug\90\lp\4\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\40\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\41\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\48\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\49\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\50\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\51\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\6\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\7\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\8\jl\AndroidManifest.xml</ManifestDocument>
@@ -74,7 +78,11 @@
     <Jar>obj\Debug\90\lp\4\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\40\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\41\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\48\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\49\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\5\jl\android.arch.lifecycle.common.jar</Jar>
+    <Jar>obj\Debug\90\lp\50\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\51\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\6\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\7\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\8\jl\bin\classes.jar</Jar>

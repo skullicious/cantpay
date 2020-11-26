@@ -26,6 +26,2663 @@ namespace CantPay.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_in = global::CantPay.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_out = global::CantPay.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::CantPay.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_popup_enter = global::CantPay.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_popup_exit = global::CantPay.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CantPay.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_in_bottom = global::CantPay.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_in_top = global::CantPay.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_out_bottom = global::CantPay.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_out_top = global::CantPay.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_tooltip_enter = global::CantPay.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_tooltip_exit = global::CantPay.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_bottom_sheet_slide_in = global::CantPay.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_bottom_sheet_slide_out = global::CantPay.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_snackbar_in = global::CantPay.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_snackbar_out = global::CantPay.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.EnterFromLeft = global::CantPay.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.EnterFromRight = global::CantPay.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.ExitToLeft = global::CantPay.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.ExitToRight = global::CantPay.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_appbar_state_list_animator = global::CantPay.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_fab_hide_motion_spec = global::CantPay.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_fab_show_motion_spec = global::CantPay.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_btn_state_list_anim = global::CantPay.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CantPay.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_chip_state_list_anim = global::CantPay.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::CantPay.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::CantPay.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CantPay.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CantPay.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarDivider = global::CantPay.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarItemBackground = global::CantPay.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarPopupTheme = global::CantPay.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarSize = global::CantPay.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarSplitStyle = global::CantPay.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarStyle = global::CantPay.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabBarStyle = global::CantPay.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabStyle = global::CantPay.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabTextStyle = global::CantPay.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTheme = global::CantPay.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarWidgetTheme = global::CantPay.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionButtonStyle = global::CantPay.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionDropDownStyle = global::CantPay.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionLayout = global::CantPay.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionMenuTextAppearance = global::CantPay.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionMenuTextColor = global::CantPay.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeBackground = global::CantPay.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCloseButtonStyle = global::CantPay.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCloseDrawable = global::CantPay.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCopyDrawable = global::CantPay.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCutDrawable = global::CantPay.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeFindDrawable = global::CantPay.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModePasteDrawable = global::CantPay.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModePopupWindowStyle = global::CantPay.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeSelectAllDrawable = global::CantPay.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeShareDrawable = global::CantPay.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeSplitBackground = global::CantPay.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeStyle = global::CantPay.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeWebSearchDrawable = global::CantPay.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionOverflowButtonStyle = global::CantPay.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionOverflowMenuStyle = global::CantPay.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionProviderClass = global::CantPay.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionViewClass = global::CantPay.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.activityChooserViewStyle = global::CantPay.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::CantPay.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogCenterButtons = global::CantPay.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogStyle = global::CantPay.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogTheme = global::CantPay.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.allowStacking = global::CantPay.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alpha = global::CantPay.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alphabeticModifiers = global::CantPay.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ambientEnabled = global::CantPay.Droid.Resource.Attribute.ambientEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.arrowHeadLength = global::CantPay.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.arrowShaftLength = global::CantPay.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoCompleteTextViewStyle = global::CantPay.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeMaxTextSize = global::CantPay.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeMinTextSize = global::CantPay.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizePresetSizes = global::CantPay.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeStepGranularity = global::CantPay.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeTextType = global::CantPay.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.background = global::CantPay.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundSplit = global::CantPay.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundStacked = global::CantPay.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundTint = global::CantPay.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundTintMode = global::CantPay.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.barLength = global::CantPay.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_autoHide = global::CantPay.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_fitToContents = global::CantPay.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_hideable = global::CantPay.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_overlapTop = global::CantPay.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_peekHeight = global::CantPay.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_skipCollapsed = global::CantPay.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.borderlessButtonStyle = global::CantPay.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.borderWidth = global::CantPay.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomAppBarStyle = global::CantPay.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomNavigationStyle = global::CantPay.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomSheetDialogTheme = global::CantPay.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomSheetStyle = global::CantPay.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxBackgroundColor = global::CantPay.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxBackgroundMode = global::CantPay.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCollapsedPaddingTop = global::CantPay.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::CantPay.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::CantPay.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::CantPay.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusTopStart = global::CantPay.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxStrokeColor = global::CantPay.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxStrokeWidth = global::CantPay.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarButtonStyle = global::CantPay.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::CantPay.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::CantPay.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::CantPay.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarStyle = global::CantPay.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonGravity = global::CantPay.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonIconDimen = global::CantPay.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonPanelSideLayout = global::CantPay.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonSize = global::CantPay.Droid.Resource.Attribute.buttonSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonStyle = global::CantPay.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonStyleSmall = global::CantPay.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonTint = global::CantPay.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonTintMode = global::CantPay.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraBearing = global::CantPay.Droid.Resource.Attribute.cameraBearing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraMaxZoomPreference = global::CantPay.Droid.Resource.Attribute.cameraMaxZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraMinZoomPreference = global::CantPay.Droid.Resource.Attribute.cameraMinZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTargetLat = global::CantPay.Droid.Resource.Attribute.cameraTargetLat;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTargetLng = global::CantPay.Droid.Resource.Attribute.cameraTargetLng;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTilt = global::CantPay.Droid.Resource.Attribute.cameraTilt;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraZoom = global::CantPay.Droid.Resource.Attribute.cameraZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardBackgroundColor = global::CantPay.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardCornerRadius = global::CantPay.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardElevation = global::CantPay.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardMaxElevation = global::CantPay.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardPreventCornerOverlap = global::CantPay.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardUseCompatPadding = global::CantPay.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardViewStyle = global::CantPay.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkboxStyle = global::CantPay.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedChip = global::CantPay.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIcon = global::CantPay.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIconEnabled = global::CantPay.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIconVisible = global::CantPay.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedTextViewStyle = global::CantPay.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipBackgroundColor = global::CantPay.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipCornerRadius = global::CantPay.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipEndPadding = global::CantPay.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipGroupStyle = global::CantPay.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIcon = global::CantPay.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconEnabled = global::CantPay.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconSize = global::CantPay.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconTint = global::CantPay.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconVisible = global::CantPay.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipMinHeight = global::CantPay.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacing = global::CantPay.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacingHorizontal = global::CantPay.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacingVertical = global::CantPay.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStandaloneStyle = global::CantPay.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStartPadding = global::CantPay.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStrokeColor = global::CantPay.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStrokeWidth = global::CantPay.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStyle = global::CantPay.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.circleCrop = global::CantPay.Droid.Resource.Attribute.circleCrop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIcon = global::CantPay.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconEnabled = global::CantPay.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconEndPadding = global::CantPay.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconSize = global::CantPay.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconStartPadding = global::CantPay.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconTint = global::CantPay.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconVisible = global::CantPay.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeItemLayout = global::CantPay.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseContentDescription = global::CantPay.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleGravity = global::CantPay.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleTextAppearance = global::CantPay.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseIcon = global::CantPay.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collectionViewStyle = global::CantPay.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.color = global::CantPay.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorAccent = global::CantPay.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorBackgroundFloating = global::CantPay.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorButtonNormal = global::CantPay.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlActivated = global::CantPay.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlHighlight = global::CantPay.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlNormal = global::CantPay.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorError = global::CantPay.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorPrimary = global::CantPay.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorPrimaryDark = global::CantPay.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorScheme = global::CantPay.Droid.Resource.Attribute.colorScheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorSecondary = global::CantPay.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorSwitchThumbNormal = global::CantPay.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.commitIcon = global::CantPay.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentDescription = global::CantPay.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetEnd = global::CantPay.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetEndWithActions = global::CantPay.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetLeft = global::CantPay.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetRight = global::CantPay.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetStart = global::CantPay.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetStartWithNavigation = global::CantPay.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPadding = global::CantPay.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingBottom = global::CantPay.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingLeft = global::CantPay.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingRight = global::CantPay.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingTop = global::CantPay.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentScrim = global::CantPay.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.controlBackground = global::CantPay.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.coordinatorLayoutStyle = global::CantPay.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cornerRadius = global::CantPay.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterEnabled = global::CantPay.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterMaxLength = global::CantPay.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterOverflowTextAppearance = global::CantPay.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterTextAppearance = global::CantPay.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.customNavigationLayout = global::CantPay.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.defaultQueryHint = global::CantPay.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogCornerRadius = global::CantPay.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogPreferredPadding = global::CantPay.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogTheme = global::CantPay.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.displayOptions = global::CantPay.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.divider = global::CantPay.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerHorizontal = global::CantPay.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerPadding = global::CantPay.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerVertical = global::CantPay.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.drawableSize = global::CantPay.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.drawerArrowStyle = global::CantPay.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::CantPay.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dropDownListViewStyle = global::CantPay.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextBackground = global::CantPay.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextColor = global::CantPay.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextStyle = global::CantPay.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.elevation = global::CantPay.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.enforceMaterialTheme = global::CantPay.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.enforceTextAppearance = global::CantPay.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.errorEnabled = global::CantPay.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.errorTextAppearance = global::CantPay.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CantPay.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expanded = global::CantPay.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleGravity = global::CantPay.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMargin = global::CantPay.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginBottom = global::CantPay.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginEnd = global::CantPay.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginStart = global::CantPay.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginTop = global::CantPay.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleTextAppearance = global::CantPay.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabAlignmentMode = global::CantPay.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleMargin = global::CantPay.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::CantPay.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleVerticalOffset = global::CantPay.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCustomSize = global::CantPay.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabSize = global::CantPay.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollEnabled = global::CantPay.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CantPay.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CantPay.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CantPay.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CantPay.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.firstBaselineToTopHeight = global::CantPay.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.floatingActionButtonStyle = global::CantPay.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.font = global::CantPay.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontFamily = global::CantPay.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderAuthority = global::CantPay.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderCerts = global::CantPay.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderFetchStrategy = global::CantPay.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderFetchTimeout = global::CantPay.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderPackage = global::CantPay.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderQuery = global::CantPay.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontStyle = global::CantPay.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontVariationSettings = global::CantPay.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontWeight = global::CantPay.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.foregroundInsidePadding = global::CantPay.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.gapBetweenBars = global::CantPay.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.goIcon = global::CantPay.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.headerLayout = global::CantPay.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.height = global::CantPay.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperText = global::CantPay.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperTextEnabled = global::CantPay.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperTextTextAppearance = global::CantPay.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideMotionSpec = global::CantPay.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideOnContentScroll = global::CantPay.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideOnScroll = global::CantPay.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintAnimationEnabled = global::CantPay.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintEnabled = global::CantPay.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintTextAppearance = global::CantPay.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.homeAsUpIndicator = global::CantPay.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.homeLayout = global::CantPay.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::CantPay.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.icon = global::CantPay.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconEndPadding = global::CantPay.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconGravity = global::CantPay.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconifiedByDefault = global::CantPay.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconPadding = global::CantPay.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconSize = global::CantPay.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconStartPadding = global::CantPay.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconTint = global::CantPay.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconTintMode = global::CantPay.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageAspectRatio = global::CantPay.Droid.Resource.Attribute.imageAspectRatio;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageAspectRatioAdjust = global::CantPay.Droid.Resource.Attribute.imageAspectRatioAdjust;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageButtonStyle = global::CantPay.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.indeterminateProgressStyle = global::CantPay.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.initialActivityCount = global::CantPay.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.insetForeground = global::CantPay.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.isLightTheme = global::CantPay.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemBackground = global::CantPay.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemHorizontalPadding = global::CantPay.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::CantPay.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconPadding = global::CantPay.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconSize = global::CantPay.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconTint = global::CantPay.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemPadding = global::CantPay.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemSpacing = global::CantPay.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearance = global::CantPay.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearanceActive = global::CantPay.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearanceInactive = global::CantPay.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextColor = global::CantPay.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.keylines = global::CantPay.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.labelVisibilityMode = global::CantPay.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lastBaselineToBottomHeight = global::CantPay.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsNorthEastLatitude = global::CantPay.Droid.Resource.Attribute.latLngBoundsNorthEastLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsNorthEastLongitude = global::CantPay.Droid.Resource.Attribute.latLngBoundsNorthEastLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsSouthWestLatitude = global::CantPay.Droid.Resource.Attribute.latLngBoundsSouthWestLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsSouthWestLongitude = global::CantPay.Droid.Resource.Attribute.latLngBoundsSouthWestLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout = global::CantPay.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layoutManager = global::CantPay.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_anchor = global::CantPay.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_anchorGravity = global::CantPay.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_behavior = global::CantPay.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_collapseMode = global::CantPay.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::CantPay.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_dodgeInsetEdges = global::CantPay.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_insetEdge = global::CantPay.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_keyline = global::CantPay.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_scrollFlags = global::CantPay.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_scrollInterpolator = global::CantPay.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.liftOnScroll = global::CantPay.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lineHeight = global::CantPay.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lineSpacing = global::CantPay.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::CantPay.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listDividerAlertDialog = global::CantPay.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listItemLayout = global::CantPay.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listLayout = global::CantPay.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listMenuViewStyle = global::CantPay.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPopupWindowStyle = global::CantPay.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeight = global::CantPay.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeightLarge = global::CantPay.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeightSmall = global::CantPay.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::CantPay.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemPaddingRight = global::CantPay.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.liteMode = global::CantPay.Droid.Resource.Attribute.liteMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.logo = global::CantPay.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.logoDescription = global::CantPay.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.mapType = global::CantPay.Droid.Resource.Attribute.mapType;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.materialButtonStyle = global::CantPay.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.materialCardViewStyle = global::CantPay.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxActionInlineWidth = global::CantPay.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxButtonHeight = global::CantPay.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxImageSize = global::CantPay.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.measureWithLargestChild = global::CantPay.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.menu = global::CantPay.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.multiChoiceItemLayout = global::CantPay.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationContentDescription = global::CantPay.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationIcon = global::CantPay.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationMode = global::CantPay.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationViewStyle = global::CantPay.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.numericModifiers = global::CantPay.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.overlapAnchor = global::CantPay.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingBottomNoButtons = global::CantPay.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingEnd = global::CantPay.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingStart = global::CantPay.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingTopNoTitle = global::CantPay.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelBackground = global::CantPay.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelMenuListTheme = global::CantPay.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelMenuListWidth = global::CantPay.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleContentDescription = global::CantPay.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleDrawable = global::CantPay.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleEnabled = global::CantPay.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleTint = global::CantPay.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleTintMode = global::CantPay.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupMenuStyle = global::CantPay.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupTheme = global::CantPay.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupWindowStyle = global::CantPay.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.preserveIconSpacing = global::CantPay.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.pressedTranslationZ = global::CantPay.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.progressBarPadding = global::CantPay.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.progressBarStyle = global::CantPay.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.queryBackground = global::CantPay.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.queryHint = global::CantPay.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.radioButtonStyle = global::CantPay.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyle = global::CantPay.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyleIndicator = global::CantPay.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyleSmall = global::CantPay.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.reverseLayout = global::CantPay.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.rippleColor = global::CantPay.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scopeUris = global::CantPay.Droid.Resource.Attribute.scopeUris;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimAnimationDuration = global::CantPay.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimBackground = global::CantPay.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::CantPay.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrollViewStyle = global::CantPay.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchHintIcon = global::CantPay.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchIcon = global::CantPay.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchViewStyle = global::CantPay.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.seekBarStyle = global::CantPay.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.selectableItemBackground = global::CantPay.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::CantPay.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showAsAction = global::CantPay.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showDividers = global::CantPay.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showMotionSpec = global::CantPay.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showText = global::CantPay.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showTitle = global::CantPay.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleChoiceItemLayout = global::CantPay.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleLine = global::CantPay.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleSelection = global::CantPay.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.snackbarButtonStyle = global::CantPay.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.snackbarStyle = global::CantPay.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spanCount = global::CantPay.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinBars = global::CantPay.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinnerDropDownItemStyle = global::CantPay.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinnerStyle = global::CantPay.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.splitTrack = global::CantPay.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.srcCompat = global::CantPay.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.stackFromEnd = global::CantPay.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_above_anchor = global::CantPay.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_collapsed = global::CantPay.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_collapsible = global::CantPay.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_liftable = global::CantPay.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_lifted = global::CantPay.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.statusBarBackground = global::CantPay.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.statusBarScrim = global::CantPay.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.strokeColor = global::CantPay.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.strokeWidth = global::CantPay.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subMenuArrow = global::CantPay.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.submitBackground = global::CantPay.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitle = global::CantPay.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextAppearance = global::CantPay.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextColor = global::CantPay.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextStyle = global::CantPay.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.suggestionRowLayout = global::CantPay.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchMinWidth = global::CantPay.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchPadding = global::CantPay.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchStyle = global::CantPay.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchTextAppearance = global::CantPay.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabBackground = global::CantPay.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabContentStart = global::CantPay.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabGravity = global::CantPay.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIconTint = global::CantPay.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIconTintMode = global::CantPay.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicator = global::CantPay.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::CantPay.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorColor = global::CantPay.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorFullWidth = global::CantPay.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorGravity = global::CantPay.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorHeight = global::CantPay.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabInlineLabel = global::CantPay.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMaxWidth = global::CantPay.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMinWidth = global::CantPay.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMode = global::CantPay.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPadding = global::CantPay.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingBottom = global::CantPay.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingEnd = global::CantPay.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingStart = global::CantPay.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingTop = global::CantPay.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabRippleColor = global::CantPay.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabSelectedTextColor = global::CantPay.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabStyle = global::CantPay.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabTextAppearance = global::CantPay.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabTextColor = global::CantPay.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabUnboundedRipple = global::CantPay.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAllCaps = global::CantPay.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceBody1 = global::CantPay.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceBody2 = global::CantPay.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceButton = global::CantPay.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceCaption = global::CantPay.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline1 = global::CantPay.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline2 = global::CantPay.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline3 = global::CantPay.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline4 = global::CantPay.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline5 = global::CantPay.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline6 = global::CantPay.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::CantPay.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItem = global::CantPay.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItemSecondary = global::CantPay.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItemSmall = global::CantPay.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceOverline = global::CantPay.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::CantPay.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CantPay.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::CantPay.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::CantPay.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSubtitle1 = global::CantPay.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSubtitle2 = global::CantPay.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textColorAlertDialogListItem = global::CantPay.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textColorSearchUrl = global::CantPay.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textEndPadding = global::CantPay.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textInputStyle = global::CantPay.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textStartPadding = global::CantPay.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.theme = global::CantPay.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thickness = global::CantPay.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTextPadding = global::CantPay.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTint = global::CantPay.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTintMode = global::CantPay.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMark = global::CantPay.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMarkTint = global::CantPay.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMarkTintMode = global::CantPay.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tint = global::CantPay.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tintMode = global::CantPay.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.title = global::CantPay.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleEnabled = global::CantPay.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMargin = global::CantPay.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginBottom = global::CantPay.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginEnd = global::CantPay.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMargins = global::CantPay.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginStart = global::CantPay.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginTop = global::CantPay.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextAppearance = global::CantPay.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextColor = global::CantPay.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextStyle = global::CantPay.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarId = global::CantPay.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::CantPay.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarStyle = global::CantPay.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipForegroundColor = global::CantPay.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipFrameBackground = global::CantPay.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipText = global::CantPay.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.track = global::CantPay.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.trackTint = global::CantPay.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.trackTintMode = global::CantPay.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ttcIndex = global::CantPay.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiCompass = global::CantPay.Droid.Resource.Attribute.uiCompass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiMapToolbar = global::CantPay.Droid.Resource.Attribute.uiMapToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiRotateGestures = global::CantPay.Droid.Resource.Attribute.uiRotateGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiScrollGestures = global::CantPay.Droid.Resource.Attribute.uiScrollGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiScrollGesturesDuringRotateOrZoom = global::CantPay.Droid.Resource.Attribute.uiScrollGesturesDuringRotateOrZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiTiltGestures = global::CantPay.Droid.Resource.Attribute.uiTiltGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiZoomControls = global::CantPay.Droid.Resource.Attribute.uiZoomControls;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiZoomGestures = global::CantPay.Droid.Resource.Attribute.uiZoomGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.useCompatPadding = global::CantPay.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.useViewLifecycle = global::CantPay.Droid.Resource.Attribute.useViewLifecycle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.viewInflaterClass = global::CantPay.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.voiceIcon = global::CantPay.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionBar = global::CantPay.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionBarOverlay = global::CantPay.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionModeOverlay = global::CantPay.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedHeightMajor = global::CantPay.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedHeightMinor = global::CantPay.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedWidthMajor = global::CantPay.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedWidthMinor = global::CantPay.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowMinWidthMajor = global::CantPay.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowMinWidthMinor = global::CantPay.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowNoTitle = global::CantPay.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.zOrderOnTop = global::CantPay.Droid.Resource.Attribute.zOrderOnTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::CantPay.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::CantPay.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CantPay.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CantPay.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CantPay.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::CantPay.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::CantPay.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_btn_colored_text_material = global::CantPay.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_color_highlight_material = global::CantPay.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_dark = global::CantPay.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_light = global::CantPay.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_input_method_navigation_guard = global::CantPay.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::CantPay.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::CantPay.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_dark = global::CantPay.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_light = global::CantPay.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text = global::CantPay.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_normal = global::CantPay.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_pressed = global::CantPay.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_selected = global::CantPay.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_secondary_text_material_dark = global::CantPay.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_secondary_text_material_light = global::CantPay.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_btn_checkable = global::CantPay.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_default = global::CantPay.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_edittext = global::CantPay.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_seek_thumb = global::CantPay.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_spinner = global::CantPay.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_switch_track = global::CantPay.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.accent_material_dark = global::CantPay.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.accent_material_light = global::CantPay.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_floating_material_dark = global::CantPay.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_floating_material_light = global::CantPay.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_material_dark = global::CantPay.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_material_light = global::CantPay.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_disabled_material_dark = global::CantPay.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_disabled_material_light = global::CantPay.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_inverse_material_dark = global::CantPay.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_inverse_material_light = global::CantPay.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_material_dark = global::CantPay.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_material_light = global::CantPay.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.button_material_dark = global::CantPay.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.button_material_light = global::CantPay.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_dark_background = global::CantPay.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_light_background = global::CantPay.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_shadow_end_color = global::CantPay.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_shadow_start_color = global::CantPay.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_default = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_disabled = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_focused = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_pressed = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_default = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_light_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_disabled = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_light_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_focused = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_pressed = global::CantPay.Droid.Resource.Color.common_google_signin_btn_text_light_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_tint = global::CantPay.Droid.Resource.Color.common_google_signin_btn_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_bottom_navigation_shadow_color = global::CantPay.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_default_color_primary = global::CantPay.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_default_color_primary_dark = global::CantPay.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_error = global::CantPay.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_end_color = global::CantPay.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_mid_color = global::CantPay.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_start_color = global::CantPay.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_end_inner_color = global::CantPay.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_end_outer_color = global::CantPay.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_top_inner_color = global::CantPay.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_top_outer_color = global::CantPay.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_snackbar_background_color = global::CantPay.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_tint_password_toggle = global::CantPay.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_disabled_material_dark = global::CantPay.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_disabled_material_light = global::CantPay.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_material_dark = global::CantPay.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_material_light = global::CantPay.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.error_color_material_dark = global::CantPay.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.error_color_material_light = global::CantPay.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.foreground_material_dark = global::CantPay.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.foreground_material_light = global::CantPay.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.highlighted_text_material_dark = global::CantPay.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.highlighted_text_material_light = global::CantPay.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_800 = global::CantPay.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_900 = global::CantPay.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_950 = global::CantPay.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_deep_teal_200 = global::CantPay.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_deep_teal_500 = global::CantPay.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_100 = global::CantPay.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_300 = global::CantPay.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_50 = global::CantPay.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_600 = global::CantPay.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_800 = global::CantPay.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_850 = global::CantPay.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_900 = global::CantPay.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::CantPay.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::CantPay.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::CantPay.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_bg_color_selector = global::CantPay.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_ripple_color = global::CantPay.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::CantPay.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CantPay.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_color_disabled = global::CantPay.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_color_selector = global::CantPay.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::CantPay.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_background_color = global::CantPay.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_close_icon_tint = global::CantPay.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_ripple_color = global::CantPay.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_text_color = global::CantPay.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_fab_ripple_color = global::CantPay.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_scrim_color = global::CantPay.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::CantPay.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::CantPay.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CantPay.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CantPay.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_ripple_color = global::CantPay.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CantPay.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_disabled_color = global::CantPay.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CantPay.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CantPay.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::CantPay.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_action_color_filter = global::CantPay.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_icon_bg_color = global::CantPay.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_material_background_media_default_color = global::CantPay.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_dark_material_dark = global::CantPay.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_dark_material_light = global::CantPay.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_material_dark = global::CantPay.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_material_light = global::CantPay.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_default_material_dark = global::CantPay.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_default_material_light = global::CantPay.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_disabled_material_dark = global::CantPay.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_disabled_material_light = global::CantPay.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.ripple_material_dark = global::CantPay.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.ripple_material_light = global::CantPay.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_default_material_dark = global::CantPay.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_default_material_light = global::CantPay.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_disabled_material_dark = global::CantPay.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_disabled_material_light = global::CantPay.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_disabled_material_dark = global::CantPay.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_disabled_material_light = global::CantPay.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_material_dark = global::CantPay.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_material_light = global::CantPay.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_normal_material_dark = global::CantPay.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_normal_material_light = global::CantPay.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.tooltip_background_dark = global::CantPay.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.tooltip_background_light = global::CantPay.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CantPay.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_height_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_elevation_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::CantPay.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CantPay.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CantPay.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_height_material = global::CantPay.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_width_material = global::CantPay.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CantPay.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CantPay.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::CantPay.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::CantPay.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_inset_vertical_material = global::CantPay.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::CantPay.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_padding_vertical_material = global::CantPay.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CantPay.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_config_prefDialogWidth = global::CantPay.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_corner_material = global::CantPay.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_inset_material = global::CantPay.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_padding_material = global::CantPay.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::CantPay.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::CantPay.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::CantPay.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::CantPay.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::CantPay.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CantPay.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CantPay.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_min_width_major = global::CantPay.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_min_width_minor = global::CantPay.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_padding_material = global::CantPay.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_padding_top_material = global::CantPay.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_title_divider_material = global::CantPay.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::CantPay.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::CantPay.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::CantPay.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CantPay.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CantPay.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CantPay.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CantPay.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::CantPay.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_floating_window_z = global::CantPay.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CantPay.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_panel_menu_list_width = global::CantPay.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_progress_bar_height_material = global::CantPay.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_search_view_preferred_height = global::CantPay.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_search_view_preferred_width = global::CantPay.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::CantPay.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CantPay.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::CantPay.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_switch_padding = global::CantPay.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_body_1_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_body_2_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_button_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_caption_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_1_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_2_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_3_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_4_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_headline_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_large_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_medium_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_menu_header_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_menu_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_small_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_subhead_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CantPay.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_title_material = global::CantPay.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::CantPay.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_compat_inset_shadow = global::CantPay.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_default_elevation = global::CantPay.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_default_radius = global::CantPay.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::CantPay.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_inset_vertical_material = global::CantPay.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::CantPay.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_padding_vertical_material = global::CantPay.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_control_corner_material = global::CantPay.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::CantPay.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::CantPay.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_appbar_elevation = global::CantPay.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_elevation = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_height = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_margin = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_text_size = global::CantPay.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CantPay.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::CantPay.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_border_width = global::CantPay.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_elevation = global::CantPay.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_image_size = global::CantPay.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_size_mini = global::CantPay.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_size_normal = global::CantPay.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CantPay.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_translation_z_pressed = global::CantPay.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_elevation = global::CantPay.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_icon_padding = global::CantPay.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_icon_size = global::CantPay.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::CantPay.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_item_icon_padding = global::CantPay.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_max_width = global::CantPay.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_padding_bottom = global::CantPay.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::CantPay.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::CantPay.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::CantPay.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_elevation = global::CantPay.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CantPay.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_max_width = global::CantPay.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_min_width = global::CantPay.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::CantPay.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_vertical = global::CantPay.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CantPay.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_text_size = global::CantPay.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_max_width = global::CantPay.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_scrollable_min_width = global::CantPay.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_text_size = global::CantPay.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_text_size_2line = global::CantPay.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_textinput_caption_translate_y = global::CantPay.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.disabled_alpha_material_dark = global::CantPay.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.disabled_alpha_material_light = global::CantPay.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_default_thickness = global::CantPay.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_margin = global::CantPay.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_minimum_range = global::CantPay.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_colored = global::CantPay.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_dark = global::CantPay.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_light = global::CantPay.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_alpha_material_dark = global::CantPay.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_alpha_material_light = global::CantPay.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::CantPay.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::CantPay.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CantPay.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CantPay.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CantPay.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CantPay.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CantPay.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CantPay.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CantPay.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_height = global::CantPay.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_corner_radius = global::CantPay.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CantPay.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::CantPay.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_disabled_z = global::CantPay.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_elevation = global::CantPay.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_focused_z = global::CantPay.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_hovered_z = global::CantPay.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CantPay.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_icon_padding = global::CantPay.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_inset = global::CantPay.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::CantPay.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::CantPay.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_left = global::CantPay.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_right = global::CantPay.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_top = global::CantPay.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_pressed_z = global::CantPay.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_stroke_size = global::CantPay.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CantPay.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CantPay.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CantPay.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_size = global::CantPay.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_z = global::CantPay.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_card_elevation = global::CantPay.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_card_spacing = global::CantPay.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CantPay.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_chip_text_size = global::CantPay.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_elevation = global::CantPay.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CantPay.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CantPay.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_elevation = global::CantPay.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CantPay.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CantPay.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CantPay.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_snackbar_margin = global::CantPay.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CantPay.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_toolbar_default_height = global::CantPay.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_action_icon_size = global::CantPay.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_action_text_size = global::CantPay.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_big_circle_margin = global::CantPay.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_content_margin_start = global::CantPay.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_large_icon_height = global::CantPay.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_large_icon_width = global::CantPay.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_main_column_padding_top = global::CantPay.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_media_narrow_margin = global::CantPay.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_right_icon_size = global::CantPay.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_right_side_padding_top = global::CantPay.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_small_icon_background_padding = global::CantPay.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_small_icon_size_as_large = global::CantPay.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_subtext_size = global::CantPay.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_top_pad = global::CantPay.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_top_pad_large_text = global::CantPay.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_corner_radius = global::CantPay.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_outline_width = global::CantPay.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_shadow_offset = global::CantPay.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_shadow_radius = global::CantPay.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_corner_radius = global::CantPay.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_horizontal_padding = global::CantPay.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_margin = global::CantPay.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CantPay.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::CantPay.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_vertical_padding = global::CantPay.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::CantPay.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_y_offset_touch = global::CantPay.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_action_bar_item_background_material = global::CantPay.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_borderless_material = global::CantPay.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_material = global::CantPay.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CantPay.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CantPay.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_colored_material = global::CantPay.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::CantPay.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_material = global::CantPay.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CantPay.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CantPay.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CantPay.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CantPay.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_internal_bg = global::CantPay.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_top_material = global::CantPay.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_control_background_material = global::CantPay.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_dialog_material_background = global::CantPay.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_edit_text_material = global::CantPay.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_ab_back_material = global::CantPay.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CantPay.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_clear_material = global::CantPay.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_go_search_api_material = global::CantPay.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CantPay.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::CantPay.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CantPay.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_search_api_material = global::CantPay.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_16dp = global::CantPay.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_36dp = global::CantPay.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_48dp = global::CantPay.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::CantPay.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::CantPay.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::CantPay.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::CantPay.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_item_background_holo_dark = global::CantPay.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_item_background_holo_light = global::CantPay.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_divider_material = global::CantPay.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_focused_holo = global::CantPay.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_longpressed_holo = global::CantPay.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::CantPay.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_pressed_holo_light = global::CantPay.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CantPay.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CantPay.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CantPay.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CantPay.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_holo_dark = global::CantPay.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_holo_light = global::CantPay.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CantPay.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::CantPay.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::CantPay.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_material = global::CantPay.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_small_material = global::CantPay.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CantPay.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CantPay.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_thumb_material = global::CantPay.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::CantPay.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_track_material = global::CantPay.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CantPay.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::CantPay.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_switch_thumb_material = global::CantPay.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_tab_indicator_material = global::CantPay.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CantPay.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_material = global::CantPay.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_cursor_material = global::CantPay.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::CantPay.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::CantPay.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::CantPay.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::CantPay.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::CantPay.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::CantPay.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_vector_test = global::CantPay.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.avd_hide_password = global::CantPay.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.avd_show_password = global::CantPay.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_full_open_on_phone = global::CantPay.Droid.Resource.Drawable.common_full_open_on_phone;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_focused = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_normal = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_disabled = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_focused = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_normal = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_normal_background = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_focused = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_normal = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_normal_background = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_disabled = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_focused = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_normal = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_normal_background = global::CantPay.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_bottom_navigation_item_background = global::CantPay.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_fab_background = global::CantPay.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_ic_visibility = global::CantPay.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_ic_visibility_off = global::CantPay.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_password_eye = global::CantPay.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_snackbar_background = global::CantPay.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.googleg_disabled_color_18 = global::CantPay.Droid.Resource.Drawable.googleg_disabled_color_18;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.googleg_standard_color_18 = global::CantPay.Droid.Resource.Drawable.googleg_standard_color_18;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::CantPay.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CantPay.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::CantPay.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.mtrl_snackbar_background = global::CantPay.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::CantPay.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.navigation_empty_icon = global::CantPay.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_action_background = global::CantPay.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg = global::CantPay.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low = global::CantPay.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low_normal = global::CantPay.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low_pressed = global::CantPay.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_normal = global::CantPay.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_normal_pressed = global::CantPay.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_icon_background = global::CantPay.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_template_icon_bg = global::CantPay.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_template_icon_low_bg = global::CantPay.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_tile_bg = global::CantPay.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::CantPay.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.tooltip_frame_dark = global::CantPay.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.tooltip_frame_light = global::CantPay.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action0 = global::CantPay.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.actions = global::CantPay.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar = global::CantPay.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_activity_content = global::CantPay.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_container = global::CantPay.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_root = global::CantPay.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_spinner = global::CantPay.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_subtitle = global::CantPay.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_title = global::CantPay.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_container = global::CantPay.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_context_bar = global::CantPay.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_divider = global::CantPay.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_image = global::CantPay.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_menu_divider = global::CantPay.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_menu_presenter = global::CantPay.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_bar = global::CantPay.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_bar_stub = global::CantPay.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_close_button = global::CantPay.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_text = global::CantPay.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.activity_chooser_view_content = global::CantPay.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.add = global::CantPay.Droid.Resource.Id.add;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.adjust_height = global::CantPay.Droid.Resource.Id.adjust_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.adjust_width = global::CantPay.Droid.Resource.Id.adjust_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.alertTitle = global::CantPay.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.async = global::CantPay.Droid.Resource.Id.async;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.auto = global::CantPay.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.blocking = global::CantPay.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.bottom = global::CantPay.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.buttonPanel = global::CantPay.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.cancel_action = global::CantPay.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.center = global::CantPay.Droid.Resource.Id.center;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.checkbox = global::CantPay.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.chronometer = global::CantPay.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.container = global::CantPay.Droid.Resource.Id.container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.content = global::CantPay.Droid.Resource.Id.content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.contentPanel = global::CantPay.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.coordinator = global::CantPay.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.custom = global::CantPay.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.customPanel = global::CantPay.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.dark = global::CantPay.Droid.Resource.Id.dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.decor_content_parent = global::CantPay.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.default_activity_button = global::CantPay.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_bottom_sheet = global::CantPay.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_action_area = global::CantPay.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_action_area_stub = global::CantPay.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_text = global::CantPay.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_navigation_view = global::CantPay.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.edit_query = global::CantPay.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.end = global::CantPay.Droid.Resource.Id.end;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.end_padder = global::CantPay.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.expanded_menu = global::CantPay.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.expand_activities_button = global::CantPay.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.fill = global::CantPay.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.filled = global::CantPay.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.@fixed = global::CantPay.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.flyoutcontent_appbar = global::CantPay.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.flyoutcontent_recycler = global::CantPay.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.forever = global::CantPay.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.ghost_view = global::CantPay.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.group_divider = global::CantPay.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.home = global::CantPay.Droid.Resource.Id.home;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.hybrid = global::CantPay.Droid.Resource.Id.hybrid;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon = global::CantPay.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon_group = global::CantPay.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon_only = global::CantPay.Droid.Resource.Id.icon_only;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.image = global::CantPay.Droid.Resource.Id.image;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.info = global::CantPay.Droid.Resource.Id.info;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.italic = global::CantPay.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.item_touch_helper_previous_elevation = global::CantPay.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.labeled = global::CantPay.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.largeLabel = global::CantPay.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.left = global::CantPay.Droid.Resource.Id.left;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.light = global::CantPay.Droid.Resource.Id.light;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.line1 = global::CantPay.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.line3 = global::CantPay.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.listMode = global::CantPay.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.list_item = global::CantPay.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.masked = global::CantPay.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.media_actions = global::CantPay.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.message = global::CantPay.Droid.Resource.Id.message;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mini = global::CantPay.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mtrl_child_content_container = global::CantPay.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::CantPay.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.multiply = global::CantPay.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.navigation_header_container = global::CantPay.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.none = global::CantPay.Droid.Resource.Id.none;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.normal = global::CantPay.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_background = global::CantPay.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_main_column = global::CantPay.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_main_column_container = global::CantPay.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.outline = global::CantPay.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parallax = global::CantPay.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parentPanel = global::CantPay.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parent_matrix = global::CantPay.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.pin = global::CantPay.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.progress_circular = global::CantPay.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.progress_horizontal = global::CantPay.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.radio = global::CantPay.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right = global::CantPay.Droid.Resource.Id.right;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right_icon = global::CantPay.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right_side = global::CantPay.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.satellite = global::CantPay.Droid.Resource.Id.satellite;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_image_matrix = global::CantPay.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_non_transition_alpha = global::CantPay.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_scale_type = global::CantPay.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.screen = global::CantPay.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollable = global::CantPay.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollIndicatorDown = global::CantPay.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollIndicatorUp = global::CantPay.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollView = global::CantPay.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_badge = global::CantPay.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_bar = global::CantPay.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_button = global::CantPay.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_close_btn = global::CantPay.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_edit_frame = global::CantPay.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_go_btn = global::CantPay.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_mag_icon = global::CantPay.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_plate = global::CantPay.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_src_text = global::CantPay.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_voice_btn = global::CantPay.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.selected = global::CantPay.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.select_dialog_listview = global::CantPay.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.shortcut = global::CantPay.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.smallLabel = global::CantPay.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snackbar_action = global::CantPay.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snackbar_text = global::CantPay.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.spacer = global::CantPay.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.split_action_bar = global::CantPay.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_atop = global::CantPay.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_in = global::CantPay.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_over = global::CantPay.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.standard = global::CantPay.Droid.Resource.Id.standard;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.start = global::CantPay.Droid.Resource.Id.start;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.status_bar_latest_event_content = global::CantPay.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.stretch = global::CantPay.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.submenuarrow = global::CantPay.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.submit_area = global::CantPay.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tabMode = global::CantPay.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_transition_group = global::CantPay.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_unhandled_key_event_manager = global::CantPay.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_unhandled_key_listeners = global::CantPay.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.terrain = global::CantPay.Droid.Resource.Id.terrain;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text = global::CantPay.Droid.Resource.Id.text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text2 = global::CantPay.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_counter = global::CantPay.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_error = global::CantPay.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_helper_text = global::CantPay.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textSpacerNoButtons = global::CantPay.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textSpacerNoTitle = global::CantPay.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text_input_password_toggle = global::CantPay.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.time = global::CantPay.Droid.Resource.Id.time;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.title = global::CantPay.Droid.Resource.Id.title;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.titleDividerNoCustom = global::CantPay.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.title_template = global::CantPay.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.top = global::CantPay.Droid.Resource.Id.top;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.topPanel = global::CantPay.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.touch_outside = global::CantPay.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_current_scene = global::CantPay.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_layout_save = global::CantPay.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_position = global::CantPay.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_scene_layoutid_cache = global::CantPay.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_transform = global::CantPay.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.uniform = global::CantPay.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.unlabeled = global::CantPay.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.up = global::CantPay.Droid.Resource.Id.up;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.view_offset_helper = global::CantPay.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.visible = global::CantPay.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.wide = global::CantPay.Droid.Resource.Id.wide;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.wrap_content = global::CantPay.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.abc_config_activityDefaultDur = global::CantPay.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.abc_config_activityShortDur = global::CantPay.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.app_bar_elevation_anim_duration = global::CantPay.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.bottom_sheet_slide_duration = global::CantPay.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.cancel_button_image_alpha = global::CantPay.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.config_tooltipAnimTime = global::CantPay.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.design_snackbar_text_max_lines = global::CantPay.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CantPay.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.google_play_services_version = global::CantPay.Droid.Resource.Integer.google_play_services_version;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.hide_password_duration = global::CantPay.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::CantPay.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::CantPay.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_chip_anim_duration = global::CantPay.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CantPay.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.show_password_duration = global::CantPay.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.status_bar_notification_info_maxnum = global::CantPay.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::CantPay.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::CantPay.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_linear = global::CantPay.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::CantPay.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_bar_title_item = global::CantPay.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_bar_up_container = global::CantPay.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_menu_item_layout = global::CantPay.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_menu_layout = global::CantPay.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_mode_bar = global::CantPay.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_mode_close_item_material = global::CantPay.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_activity_chooser_view = global::CantPay.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::CantPay.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::CantPay.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_material = global::CantPay.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_title_material = global::CantPay.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_cascading_menu_item_layout = global::CantPay.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_dialog_title_material = global::CantPay.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_expanded_menu_layout = global::CantPay.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_checkbox = global::CantPay.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_icon = global::CantPay.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_layout = global::CantPay.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_radio = global::CantPay.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::CantPay.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_popup_menu_item_layout = global::CantPay.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_content_include = global::CantPay.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_simple = global::CantPay.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CantPay.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_toolbar = global::CantPay.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CantPay.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_search_view = global::CantPay.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_select_dialog_material = global::CantPay.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_tooltip = global::CantPay.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.BottomTabLayout = global::CantPay.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_bottom_navigation_item = global::CantPay.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_bottom_sheet_dialog = global::CantPay.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_snackbar = global::CantPay.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_snackbar_include = global::CantPay.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_tab_icon = global::CantPay.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_tab_text = global::CantPay.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_menu_item_action_area = global::CantPay.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item = global::CantPay.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_header = global::CantPay.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_separator = global::CantPay.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_subheader = global::CantPay.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_menu = global::CantPay.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_menu_item = global::CantPay.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_text_input_password_icon = global::CantPay.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.FlyoutContent = global::CantPay.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.mtrl_layout_snackbar = global::CantPay.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.mtrl_layout_snackbar_include = global::CantPay.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_action = global::CantPay.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_action_tombstone = global::CantPay.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_media_action = global::CantPay.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_media_cancel_action = global::CantPay.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media = global::CantPay.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_custom = global::CantPay.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_narrow = global::CantPay.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::CantPay.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_custom_big = global::CantPay.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_icon_group = global::CantPay.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_lines_media = global::CantPay.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_media = global::CantPay.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_media_custom = global::CantPay.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_part_chronometer = global::CantPay.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_part_time = global::CantPay.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.RootLayout = global::CantPay.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_item_material = global::CantPay.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_multichoice_material = global::CantPay.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_singlechoice_material = global::CantPay.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.ShellContent = global::CantPay.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::CantPay.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_bar_home_description = global::CantPay.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_bar_up_description = global::CantPay.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_menu_overflow_description = global::CantPay.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_mode_done = global::CantPay.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_activitychooserview_choose_application = global::CantPay.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_activity_chooser_view_see_all = global::CantPay.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_capital_off = global::CantPay.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_capital_on = global::CantPay.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_body_1_material = global::CantPay.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_body_2_material = global::CantPay.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_button_material = global::CantPay.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_caption_material = global::CantPay.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_1_material = global::CantPay.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_2_material = global::CantPay.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_3_material = global::CantPay.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_4_material = global::CantPay.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_headline_material = global::CantPay.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_menu_material = global::CantPay.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_subhead_material = global::CantPay.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_title_material = global::CantPay.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_alt_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_delete_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_enter_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_function_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_meta_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_shift_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_space_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_sym_shortcut_label = global::CantPay.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_prepend_shortcut_label = global::CantPay.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_clear = global::CantPay.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_query = global::CantPay.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_search = global::CantPay.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_submit = global::CantPay.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_voice = global::CantPay.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_search_hint = global::CantPay.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_shareactionprovider_share_with = global::CantPay.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_shareactionprovider_share_with_application = global::CantPay.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_toolbar_collapse_description = global::CantPay.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.appbar_scrolling_view_behavior = global::CantPay.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.bottom_sheet_behavior = global::CantPay.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.character_counter_content_description = global::CantPay.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.character_counter_pattern = global::CantPay.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_button = global::CantPay.Droid.Resource.String.common_google_play_services_enable_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_text = global::CantPay.Droid.Resource.String.common_google_play_services_enable_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_title = global::CantPay.Droid.Resource.String.common_google_play_services_enable_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_button = global::CantPay.Droid.Resource.String.common_google_play_services_install_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_text = global::CantPay.Droid.Resource.String.common_google_play_services_install_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_title = global::CantPay.Droid.Resource.String.common_google_play_services_install_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_notification_channel_name = global::CantPay.Droid.Resource.String.common_google_play_services_notification_channel_name;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_notification_ticker = global::CantPay.Droid.Resource.String.common_google_play_services_notification_ticker;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_unknown_issue = global::CantPay.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_unsupported_text = global::CantPay.Droid.Resource.String.common_google_play_services_unsupported_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_button = global::CantPay.Droid.Resource.String.common_google_play_services_update_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_text = global::CantPay.Droid.Resource.String.common_google_play_services_update_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_title = global::CantPay.Droid.Resource.String.common_google_play_services_update_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_updating_text = global::CantPay.Droid.Resource.String.common_google_play_services_updating_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_wear_update_text = global::CantPay.Droid.Resource.String.common_google_play_services_wear_update_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_open_on_phone = global::CantPay.Droid.Resource.String.common_open_on_phone;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_signin_button_text = global::CantPay.Droid.Resource.String.common_signin_button_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_signin_button_text_long = global::CantPay.Droid.Resource.String.common_signin_button_text_long;
+			global::Xamarin.Forms.Maps.Android.Resource.String.fab_transformation_scrim_behavior = global::CantPay.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.fab_transformation_sheet_behavior = global::CantPay.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::CantPay.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.mtrl_chip_close_icon_content_description = global::CantPay.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.overflow_tab_title = global::CantPay.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.password_toggle_content_description = global::CantPay.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye = global::CantPay.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye_mask_strike_through = global::CantPay.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye_mask_visible = global::CantPay.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_strike_through = global::CantPay.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.Maps.Android.Resource.String.search_menu_title = global::CantPay.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.status_bar_notification_info_overflow = global::CantPay.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AlertDialog_AppCompat = global::CantPay.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AlertDialog_AppCompat_Light = global::CantPay.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::CantPay.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Tooltip = global::CantPay.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::CantPay.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AppCompatDialogStyle = global::CantPay.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat = global::CantPay.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CantPay.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CantPay.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_CardView = global::CantPay.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CantPay.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CantPay.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CantPay.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CantPay.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CantPay.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CantPay.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CantPay.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CantPay.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CantPay.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V22_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V23_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CantPay.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V28_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat = global::CantPay.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CantPay.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CantPay.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CantPay.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CantPay.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CantPay.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_Design_TabLayout = global::CantPay.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CantPay.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CantPay.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CantPay.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView = global::CantPay.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Dark = global::CantPay.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Light = global::CantPay.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.collectionViewTheme = global::CantPay.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.MainTheme = global::CantPay.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.MainTheme_Base = global::CantPay.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat = global::CantPay.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat_Light = global::CantPay.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents = global::CantPay.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Light = global::CantPay.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CantPay.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CantPay.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CantPay.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CantPay.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V21_AppCompat = global::CantPay.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V21_AppCompat_Light = global::CantPay.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V25_AppCompat = global::CantPay.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V25_AppCompat_Light = global::CantPay.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CantPay.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CantPay.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CantPay.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CantPay.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CantPay.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.scrollViewScrollBars = global::CantPay.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.scrollViewTheme = global::CantPay.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Button = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Large = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Small = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Title = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CantPay.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CantPay.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Counter = global::CantPay.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CantPay.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Error = global::CantPay.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_HelperText = global::CantPay.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Hint = global::CantPay.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CantPay.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Tab = global::CantPay.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::CantPay.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CantPay.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CantPay.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CantPay.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::CantPay.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CantPay.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat = global::CantPay.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::CantPay.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design = global::CantPay.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::CantPay.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light = global::CantPay.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CantPay.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CantPay.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionMode = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Small = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CantPay.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CantPay.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CantPay.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CantPay.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CantPay.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_EditText = global::CantPay.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ImageButton = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::CantPay.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::CantPay.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CantPay.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CantPay.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CantPay.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SearchView = global::CantPay.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SeekBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CantPay.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CantPay.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Toolbar = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CantPay.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::CantPay.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Compat_NotificationActionText = global::CantPay.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_AppBarLayout = global::CantPay.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_BottomNavigationView = global::CantPay.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::CantPay.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::CantPay.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_FloatingActionButton = global::CantPay.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_NavigationView = global::CantPay.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CantPay.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_Snackbar = global::CantPay.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_TabLayout = global::CantPay.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_TextInputLayout = global::CantPay.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_CardView = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::CantPay.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::CantPay.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar = global::CantPay.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBarLayout = global::CantPay.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CantPay.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_background = global::CantPay.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_backgroundSplit = global::CantPay.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_backgroundStacked = global::CantPay.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::CantPay.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CantPay.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::CantPay.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetRight = global::CantPay.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetStart = global::CantPay.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CantPay.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::CantPay.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_displayOptions = global::CantPay.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_divider = global::CantPay.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_elevation = global::CantPay.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_height = global::CantPay.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::CantPay.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CantPay.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_homeLayout = global::CantPay.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_icon = global::CantPay.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CantPay.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_itemPadding = global::CantPay.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_logo = global::CantPay.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_navigationMode = global::CantPay.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_popupTheme = global::CantPay.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_progressBarPadding = global::CantPay.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_progressBarStyle = global::CantPay.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_subtitle = global::CantPay.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::CantPay.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_title = global::CantPay.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_titleTextStyle = global::CantPay.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuItemView = global::CantPay.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CantPay.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuView = global::CantPay.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode = global::CantPay.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_background = global::CantPay.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_backgroundSplit = global::CantPay.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_closeItemLayout = global::CantPay.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_height = global::CantPay.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::CantPay.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_titleTextStyle = global::CantPay.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView = global::CantPay.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CantPay.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CantPay.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog = global::CantPay.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_android_layout = global::CantPay.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::CantPay.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CantPay.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_listItemLayout = global::CantPay.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_listLayout = global::CantPay.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CantPay.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_showTitle = global::CantPay.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CantPay.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CantPay.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout = global::CantPay.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates = global::CantPay.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CantPay.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CantPay.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CantPay.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CantPay.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_background = global::CantPay.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CantPay.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CantPay.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_elevation = global::CantPay.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_expanded = global::CantPay.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout = global::CantPay.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CantPay.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CantPay.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::CantPay.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView = global::CantPay.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_android_src = global::CantPay.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::CantPay.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_tint = global::CantPay.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_tintMode = global::CantPay.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar = global::CantPay.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CantPay.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::CantPay.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CantPay.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CantPay.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CantPay.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView = global::CantPay.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::CantPay.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorError = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CantPay.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar = global::CantPay.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::CantPay.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CantPay.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CantPay.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CantPay.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CantPay.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::CantPay.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView = global::CantPay.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_elevation = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_menu = global::CantPay.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::CantPay.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CantPay.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CantPay.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CantPay.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CantPay.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ButtonBarLayout = global::CantPay.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::CantPay.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView = global::CantPay.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_android_minHeight = global::CantPay.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_android_minWidth = global::CantPay.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardBackgroundColor = global::CantPay.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardCornerRadius = global::CantPay.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardElevation = global::CantPay.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardMaxElevation = global::CantPay.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CantPay.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::CantPay.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPadding = global::CantPay.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingBottom = global::CantPay.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingLeft = global::CantPay.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingRight = global::CantPay.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingTop = global::CantPay.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip = global::CantPay.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup = global::CantPay.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_checkedChip = global::CantPay.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacing = global::CantPay.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CantPay.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CantPay.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_singleLine = global::CantPay.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_singleSelection = global::CantPay.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_checkable = global::CantPay.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_ellipsize = global::CantPay.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_maxWidth = global::CantPay.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_text = global::CantPay.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_textAppearance = global::CantPay.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIcon = global::CantPay.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIconEnabled = global::CantPay.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIconVisible = global::CantPay.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipBackgroundColor = global::CantPay.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipCornerRadius = global::CantPay.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipEndPadding = global::CantPay.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIcon = global::CantPay.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconEnabled = global::CantPay.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconSize = global::CantPay.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconTint = global::CantPay.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconVisible = global::CantPay.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipMinHeight = global::CantPay.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStartPadding = global::CantPay.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStrokeColor = global::CantPay.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStrokeWidth = global::CantPay.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIcon = global::CantPay.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconEnabled = global::CantPay.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconEndPadding = global::CantPay.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconSize = global::CantPay.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconStartPadding = global::CantPay.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconTint = global::CantPay.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconVisible = global::CantPay.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_hideMotionSpec = global::CantPay.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_iconEndPadding = global::CantPay.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_iconStartPadding = global::CantPay.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_rippleColor = global::CantPay.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_showMotionSpec = global::CantPay.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_textEndPadding = global::CantPay.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_textStartPadding = global::CantPay.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CantPay.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem = global::CantPay.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_alpha = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_android_color = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton = global::CantPay.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_android_button = global::CantPay.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_buttonTint = global::CantPay.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::CantPay.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_keylines = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme = global::CantPay.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::CantPay.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::CantPay.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_color = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::CantPay.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton = global::CantPay.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_elevation = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_fabSize = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CantPay.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout = global::CantPay.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout_itemSpacing = global::CantPay.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout_lineSpacing = global::CantPay.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily = global::CantPay.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont = global::CantPay.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_font = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_font = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout = global::CantPay.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CantPay.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CantPay.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CantPay.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor = global::CantPay.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem = global::CantPay.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem_android_color = global::CantPay.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem_android_offset = global::CantPay.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::CantPay.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_tileMode = global::CantPay.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_type = global::CantPay.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ItemsViewRendererTheme = global::CantPay.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::CantPay.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_divider = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::CantPay.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow = global::CantPay.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CantPay.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CantPay.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView = global::CantPay.Droid.Resource.Styleable.LoadingImageView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_circleCrop = global::CantPay.Droid.Resource.Styleable.LoadingImageView_circleCrop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_imageAspectRatio = global::CantPay.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::CantPay.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs = global::CantPay.Droid.Resource.Styleable.MapAttrs;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_ambientEnabled = global::CantPay.Droid.Resource.Styleable.MapAttrs_ambientEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraBearing = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraBearing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraMaxZoomPreference = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraMaxZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraMinZoomPreference = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraMinZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTargetLat = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraTargetLat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTargetLng = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraTargetLng;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTilt = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraTilt;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraZoom = global::CantPay.Droid.Resource.Styleable.MapAttrs_cameraZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLatitude = global::CantPay.Droid.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLongitude = global::CantPay.Droid.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLatitude = global::CantPay.Droid.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLongitude = global::CantPay.Droid.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_liteMode = global::CantPay.Droid.Resource.Styleable.MapAttrs_liteMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_mapType = global::CantPay.Droid.Resource.Styleable.MapAttrs_mapType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiCompass = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiCompass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiMapToolbar = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiMapToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiRotateGestures = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiRotateGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiScrollGestures = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiScrollGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiScrollGesturesDuringRotateOrZoom = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiScrollGesturesDuringRotateOrZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiTiltGestures = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiTiltGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiZoomControls = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiZoomControls;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiZoomGestures = global::CantPay.Droid.Resource.Styleable.MapAttrs_uiZoomGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_useViewLifecycle = global::CantPay.Droid.Resource.Styleable.MapAttrs_useViewLifecycle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_zOrderOnTop = global::CantPay.Droid.Resource.Styleable.MapAttrs_zOrderOnTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton = global::CantPay.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::CantPay.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::CantPay.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetRight = global::CantPay.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetTop = global::CantPay.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_backgroundTint = global::CantPay.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::CantPay.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_cornerRadius = global::CantPay.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_icon = global::CantPay.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconGravity = global::CantPay.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconPadding = global::CantPay.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconSize = global::CantPay.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconTint = global::CantPay.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconTintMode = global::CantPay.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_rippleColor = global::CantPay.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_strokeColor = global::CantPay.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_strokeWidth = global::CantPay.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView = global::CantPay.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView_strokeColor = global::CantPay.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::CantPay.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::CantPay.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup = global::CantPay.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CantPay.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_enabled = global::CantPay.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_id = global::CantPay.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::CantPay.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::CantPay.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_visible = global::CantPay.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem = global::CantPay.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionLayout = global::CantPay.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionProviderClass = global::CantPay.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionViewClass = global::CantPay.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::CantPay.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CantPay.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_checkable = global::CantPay.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_checked = global::CantPay.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_enabled = global::CantPay.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_icon = global::CantPay.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_id = global::CantPay.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_menuCategory = global::CantPay.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::CantPay.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_onClick = global::CantPay.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::CantPay.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_title = global::CantPay.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::CantPay.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_visible = global::CantPay.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_contentDescription = global::CantPay.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_iconTint = global::CantPay.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_iconTintMode = global::CantPay.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_numericModifiers = global::CantPay.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_showAsAction = global::CantPay.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_tooltipText = global::CantPay.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView = global::CantPay.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_headerBackground = global::CantPay.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::CantPay.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemBackground = global::CantPay.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CantPay.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::CantPay.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_verticalDivider = global::CantPay.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CantPay.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::CantPay.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_subMenuArrow = global::CantPay.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView = global::CantPay.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_background = global::CantPay.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CantPay.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_maxWidth = global::CantPay.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_elevation = global::CantPay.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_headerLayout = global::CantPay.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemBackground = global::CantPay.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CantPay.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemIconPadding = global::CantPay.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemIconTint = global::CantPay.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::CantPay.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemTextColor = global::CantPay.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_menu = global::CantPay.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow = global::CantPay.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindowBackgroundState = global::CantPay.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CantPay.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CantPay.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::CantPay.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::CantPay.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView = global::CantPay.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CantPay.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CantPay.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView = global::CantPay.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CantPay.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_android_orientation = global::CantPay.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::CantPay.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::CantPay.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::CantPay.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::CantPay.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::CantPay.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_layoutManager = global::CantPay.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_reverseLayout = global::CantPay.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_spanCount = global::CantPay.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::CantPay.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::CantPay.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CantPay.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::CantPay.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::CantPay.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollViewRendererTheme = global::CantPay.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::CantPay.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView = global::CantPay.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_focusable = global::CantPay.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_imeOptions = global::CantPay.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_inputType = global::CantPay.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_maxWidth = global::CantPay.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_closeIcon = global::CantPay.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_commitIcon = global::CantPay.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_defaultQueryHint = global::CantPay.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_goIcon = global::CantPay.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::CantPay.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_layout = global::CantPay.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_queryBackground = global::CantPay.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_queryHint = global::CantPay.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_searchHintIcon = global::CantPay.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_searchIcon = global::CantPay.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_submitBackground = global::CantPay.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::CantPay.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_voiceIcon = global::CantPay.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton = global::CantPay.Droid.Resource.Styleable.SignInButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_buttonSize = global::CantPay.Droid.Resource.Styleable.SignInButton_buttonSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_colorScheme = global::CantPay.Droid.Resource.Styleable.SignInButton_colorScheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_scopeUris = global::CantPay.Droid.Resource.Styleable.SignInButton_scopeUris;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar = global::CantPay.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout = global::CantPay.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CantPay.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_elevation = global::CantPay.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CantPay.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CantPay.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar_snackbarStyle = global::CantPay.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner = global::CantPay.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::CantPay.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_entries = global::CantPay.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_popupBackground = global::CantPay.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_prompt = global::CantPay.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_popupTheme = global::CantPay.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable = global::CantPay.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawableItem = global::CantPay.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::CantPay.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::CantPay.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_dither = global::CantPay.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CantPay.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CantPay.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::CantPay.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_visible = global::CantPay.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat = global::CantPay.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_textOff = global::CantPay.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_textOn = global::CantPay.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_thumb = global::CantPay.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_showText = global::CantPay.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_splitTrack = global::CantPay.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::CantPay.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchPadding = global::CantPay.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CantPay.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CantPay.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTint = global::CantPay.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::CantPay.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_track = global::CantPay.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_trackTint = global::CantPay.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::CantPay.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem = global::CantPay.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_icon = global::CantPay.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_layout = global::CantPay.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_text = global::CantPay.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout = global::CantPay.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabBackground = global::CantPay.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabContentStart = global::CantPay.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabGravity = global::CantPay.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIconTint = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicator = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CantPay.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::CantPay.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::CantPay.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMinWidth = global::CantPay.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMode = global::CantPay.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPadding = global::CantPay.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::CantPay.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::CantPay.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::CantPay.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::CantPay.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabRippleColor = global::CantPay.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CantPay.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::CantPay.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabTextColor = global::CantPay.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CantPay.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance = global::CantPay.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColor = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textSize = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textStyle = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_typeface = global::CantPay.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_fontFamily = global::CantPay.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_textAllCaps = global::CantPay.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout = global::CantPay.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_android_hint = global::CantPay.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::CantPay.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CantPay.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::CantPay.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::CantPay.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CantPay.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CantPay.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::CantPay.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CantPay.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperText = global::CantPay.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CantPay.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CantPay.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CantPay.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::CantPay.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CantPay.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::CantPay.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::CantPay.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CantPay.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CantPay.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CantPay.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement = global::CantPay.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CantPay.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CantPay.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CantPay.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar = global::CantPay.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_android_gravity = global::CantPay.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_android_minHeight = global::CantPay.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_buttonGravity = global::CantPay.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::CantPay.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_collapseIcon = global::CantPay.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::CantPay.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CantPay.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::CantPay.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetRight = global::CantPay.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetStart = global::CantPay.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CantPay.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_logo = global::CantPay.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_logoDescription = global::CantPay.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::CantPay.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::CantPay.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_navigationIcon = global::CantPay.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_popupTheme = global::CantPay.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitle = global::CantPay.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CantPay.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::CantPay.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_title = global::CantPay.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMargin = global::CantPay.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::CantPay.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::CantPay.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMargins = global::CantPay.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginStart = global::CantPay.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginTop = global::CantPay.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::CantPay.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleTextColor = global::CantPay.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View = global::CantPay.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper = global::CantPay.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::CantPay.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CantPay.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CantPay.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat = global::CantPay.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_id = global::CantPay.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CantPay.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_layout = global::CantPay.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_android_focusable = global::CantPay.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_android_theme = global::CantPay.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_paddingEnd = global::CantPay.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_paddingStart = global::CantPay.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_theme = global::CantPay.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::CantPay.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::CantPay.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::CantPay.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -5336,6 +7993,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F040029
 			public const int alphabeticModifiers = 2130968617;
 			
+			// aapt resource value: 0x1
+			public const int ambientEnabled = 1;
+			
 			// aapt resource value: 0x7F04002A
 			public const int arrowHeadLength = 2130968618;
 			
@@ -5465,6 +8125,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F040054
 			public const int buttonPanelSideLayout = 2130968660;
 			
+			// aapt resource value: 0x1
+			public const int buttonSize = 1;
+			
 			// aapt resource value: 0x7F040055
 			public const int buttonStyle = 2130968661;
 			
@@ -5476,6 +8139,27 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F040058
 			public const int buttonTintMode = 2130968664;
+			
+			// aapt resource value: 0x1
+			public const int cameraBearing = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMaxZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMinZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLat = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLng = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTilt = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraZoom = 1;
 			
 			// aapt resource value: 0x7F040059
 			public const int cardBackgroundColor = 2130968665;
@@ -5570,6 +8254,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F040077
 			public const int chipStyle = 2130968695;
 			
+			// aapt resource value: 0x1
+			public const int circleCrop = 1;
+			
 			// aapt resource value: 0x7F040078
 			public const int closeIcon = 2130968696;
 			
@@ -5638,6 +8325,9 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F04008D
 			public const int colorPrimaryDark = 2130968717;
+			
+			// aapt resource value: 0x1
+			public const int colorScheme = 1;
 			
 			// aapt resource value: 0x7F04008E
 			public const int colorSecondary = 2130968718;
@@ -5954,6 +8644,12 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0400F4
 			public const int iconTintMode = 2130968820;
 			
+			// aapt resource value: 0x1
+			public const int imageAspectRatio = 1;
+			
+			// aapt resource value: 0x1
+			public const int imageAspectRatioAdjust = 1;
+			
 			// aapt resource value: 0x7F0400F6
 			public const int imageButtonStyle = 2130968822;
 			
@@ -6013,6 +8709,18 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F040109
 			public const int lastBaselineToBottomHeight = 2130968841;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLongitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLongitude = 1;
 			
 			// aapt resource value: 0x7F04010A
 			public const int layout = 2130968842;
@@ -6092,11 +8800,17 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F040123
 			public const int listPreferredItemPaddingRight = 2130968867;
 			
+			// aapt resource value: 0x1
+			public const int liteMode = 1;
+			
 			// aapt resource value: 0x7F040124
 			public const int logo = 2130968868;
 			
 			// aapt resource value: 0x7F040125
 			public const int logoDescription = 2130968869;
+			
+			// aapt resource value: 0x1
+			public const int mapType = 1;
 			
 			// aapt resource value: 0x7F040126
 			public const int materialButtonStyle = 2130968870;
@@ -6259,6 +8973,9 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F04014E
 			public const int rippleColor = 2130968910;
+			
+			// aapt resource value: 0x1
+			public const int scopeUris = 1;
 			
 			// aapt resource value: 0x7F04014F
 			public const int scrimAnimationDuration = 2130968911;
@@ -6653,8 +9370,35 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F04000C
 			public const int ttcIndex = 2130968588;
 			
+			// aapt resource value: 0x1
+			public const int uiCompass = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiMapToolbar = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiRotateGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiScrollGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiScrollGesturesDuringRotateOrZoom = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiTiltGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomControls = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomGestures = 1;
+			
 			// aapt resource value: 0x7F0401D1
 			public const int useCompatPadding = 2130969041;
+			
+			// aapt resource value: 0x1
+			public const int useViewLifecycle = 1;
 			
 			// aapt resource value: 0x7F0401D2
 			public const int viewInflaterClass = 2130969042;
@@ -6691,6 +9435,9 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F0401DD
 			public const int windowNoTitle = 2130969053;
+			
+			// aapt resource value: 0x1
+			public const int zOrderOnTop = 1;
 			
 			static Attribute()
 			{
@@ -6876,6 +9623,39 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F040004
 			public const int colorPrimaryDark = 2130968580;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_default = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_pressed = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_default = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_pressed = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_tint = 1;
 			
 			// aapt resource value: 0x7F06002B
 			public const int design_bottom_navigation_shadow_color = 2131099691;
@@ -8103,6 +10883,63 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F090056
 			public const int avd_show_password = 2131296342;
 			
+			// aapt resource value: 0x1
+			public const int common_full_open_on_phone = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_normal_background = 1;
+			
 			// aapt resource value: 0x7F090057
 			public const int design_bottom_navigation_item_background = 2131296343;
 			
@@ -8120,6 +10957,12 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F09005C
 			public const int design_snackbar_background = 2131296348;
+			
+			// aapt resource value: 0x1
+			public const int googleg_disabled_color_18 = 1;
+			
+			// aapt resource value: 0x1
+			public const int googleg_standard_color_18 = 1;
 			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_dark = 2131296341;
@@ -8848,6 +11691,12 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0C0014
 			public const int add = 2131492884;
 			
+			// aapt resource value: 0x1
+			public const int adjust_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int adjust_width = 1;
+			
 			// aapt resource value: 0x7F0C0015
 			public const int alertTitle = 2131492885;
 			
@@ -8917,6 +11766,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0C0023
 			public const int customPanel = 2131492899;
 			
+			// aapt resource value: 0x1
+			public const int dark = 1;
+			
 			// aapt resource value: 0x7F0C0024
 			public const int decor_content_parent = 2131492900;
 			
@@ -8980,11 +11832,17 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
+			// aapt resource value: 0x1
+			public const int hybrid = 1;
+			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
 			
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
+			
+			// aapt resource value: 0x1
+			public const int icon_only = 1;
 			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
@@ -9006,6 +11864,9 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F0C0010
 			public const int left = 2131492880;
+			
+			// aapt resource value: 0x1
+			public const int light = 1;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -9241,6 +12102,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
 			
+			// aapt resource value: 0x1
+			public const int satellite = 1;
+			
 			// aapt resource value: 0x7F0C005A
 			public const int save_image_matrix = 2131492954;
 			
@@ -9337,6 +12201,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0C0076
 			public const int src_over = 2131492982;
 			
+			// aapt resource value: 0x1
+			public const int standard = 1;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int start = 2131492891;
 			
@@ -9363,6 +12230,9 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F0C0018
 			public const int tag_unhandled_key_listeners = 2131492888;
+			
+			// aapt resource value: 0x1
+			public const int terrain = 1;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int text = 2131492889;
@@ -9445,6 +12315,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F0C009D
 			public const int volume_item_container = 2131493021;
 			
+			// aapt resource value: 0x1
+			public const int wide = 1;
+			
 			// aapt resource value: 0x7F0C0098
 			public const int wrap_content = 2131493016;
 			
@@ -9484,6 +12357,9 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F0D0008
 			public const int design_tab_indicator_anim_duration_ms = 2131558408;
+			
+			// aapt resource value: 0x1
+			public const int google_play_services_version = 1;
 			
 			// aapt resource value: 0x7F0D0009
 			public const int hide_password_duration = 2131558409;
@@ -9980,6 +12856,60 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F15002B
 			public const int character_counter_pattern = 2132082731;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_notification_channel_name = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_notification_ticker = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unknown_issue = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unsupported_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_updating_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_wear_update_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_open_on_phone = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_signin_button_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_signin_button_text_long = 1;
 			
 			// aapt resource value: 0x7F15002C
 			public const int fab_transformation_scrim_behavior = 2132082732;
@@ -13357,6 +16287,118 @@ namespace CantPay.Droid
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
+			public static int[] LoadingImageView = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int LoadingImageView_circleCrop = 2;
+			
+			// aapt resource value: 0x1
+			public const int LoadingImageView_imageAspectRatio = 1;
+			
+			// aapt resource value: 0x7F060765
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131101541;
+			
+			public static int[] MapAttrs = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x17
+			public const int MapAttrs_ambientEnabled = 23;
+			
+			// aapt resource value: 0x1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 0x19
+			public const int MapAttrs_cameraMaxZoomPreference = 25;
+			
+			// aapt resource value: 0x18
+			public const int MapAttrs_cameraMinZoomPreference = 24;
+			
+			// aapt resource value: 0x2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 0x3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 0x4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 0x5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 0x22
+			public const int MapAttrs_latLngBoundsNorthEastLatitude = 34;
+			
+			// aapt resource value: 0x23
+			public const int MapAttrs_latLngBoundsNorthEastLongitude = 35;
+			
+			// aapt resource value: 0x20
+			public const int MapAttrs_latLngBoundsSouthWestLatitude = 32;
+			
+			// aapt resource value: 0x21
+			public const int MapAttrs_latLngBoundsSouthWestLongitude = 33;
+			
+			// aapt resource value: 0x6
+			public const int MapAttrs_liteMode = 6;
+			
+			// aapt resource value: 0x7F060784
+			public const int MapAttrs_mapType = 2131101572;
+			
+			// aapt resource value: 0x7
+			public const int MapAttrs_uiCompass = 7;
+			
+			// aapt resource value: 0x16
+			public const int MapAttrs_uiMapToolbar = 22;
+			
+			// aapt resource value: 0x8
+			public const int MapAttrs_uiRotateGestures = 8;
+			
+			// aapt resource value: 0x9
+			public const int MapAttrs_uiScrollGestures = 9;
+			
+			// aapt resource value: 0x10
+			public const int MapAttrs_uiScrollGesturesDuringRotateOrZoom = 16;
+			
+			// aapt resource value: 0x11
+			public const int MapAttrs_uiTiltGestures = 17;
+			
+			// aapt resource value: 0x12
+			public const int MapAttrs_uiZoomControls = 18;
+			
+			// aapt resource value: 0x13
+			public const int MapAttrs_uiZoomGestures = 19;
+			
+			// aapt resource value: 0x14
+			public const int MapAttrs_useViewLifecycle = 20;
+			
+			// aapt resource value: 0x15
+			public const int MapAttrs_zOrderOnTop = 21;
+			
 			public static int[] MaterialButton = new int[] {
 					16843194,
 					16843191,
@@ -13952,6 +16994,20 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
+			
+			public static int[] SignInButton = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F060767
+			public const int SignInButton_buttonSize = 2131101543;
+			
+			// aapt resource value: 0x1
+			public const int SignInButton_colorScheme = 1;
+			
+			// aapt resource value: 0x2
+			public const int SignInButton_scopeUris = 2;
 			
 			public static int[] Snackbar = new int[] {
 					2130968928,
