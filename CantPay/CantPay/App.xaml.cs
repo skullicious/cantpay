@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CantPay.Helpers;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,6 +8,10 @@ namespace CantPay
 {
     public partial class App : Application
     {
+        GameManager gameManager = GameManager.Instance();
+
+        public static string DatabaseLocation = string.Empty;
+
         public App()
         {
 
@@ -14,6 +19,24 @@ namespace CantPay
             InitializeComponent();            
 
             MainPage = new NavigationPage(new MainPage());
+
+       
+
+          
+        }
+
+        public App(string databaseLocation)
+        {
+
+
+            InitializeComponent();
+
+            MainPage = new NavigationPage(new MainPage());
+
+            gameManager.test = "123";
+
+            DatabaseLocation = databaseLocation;
+
         }
 
         protected override void OnStart()

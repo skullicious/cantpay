@@ -2,16 +2,32 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CantPay.MapPage"
-             NavigationPage.HasNavigationBar="false">
+             NavigationPage.HasNavigationBar="false"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">   
     <ContentPage.Content>
+
+
+
         <StackLayout BackgroundColor="#a6e54c">
-         
-            <Label     HorizontalOptions="Center" 
+
+            <maps:Map x:Name="map"/>
+            
+            
+            
+            <!--<Label     
+                   HorizontalOptions="Center" 
                    Margin="10" 
                    TextColor="#0f380f"
-           VerticalOptions="CenterAndExpand" 
+                   VerticalOptions="CenterAndExpand" 
                    Text="Map Page" 
-                   FontFamily="{StaticResource NormalFont}" />
+                   FontFamily="{StaticResource NormalFont}" />-->
+            <Label   Margin="10" FontFamily="{StaticResource NormalFont}" Text="Our Lady of the Grazed Knee"  TextColor="#0f380f" FontSize="15" HorizontalOptions="Start"/>
+            <Label   Margin="10" FontFamily="{StaticResource NormalFont}" Text="Missed payments on funeral hearse"  TextColor="#0f380f" FontSize="15"/>
+            <Label   Margin="10" FontFamily="{StaticResource NormalFont}" Text="£100"  TextColor="#0f380f" FontSize="15"/>      
+            
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
