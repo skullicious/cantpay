@@ -14,26 +14,21 @@ namespace CantPay
 
         public App()
         {
-
             
             InitializeComponent();            
 
-            MainPage = new NavigationPage(new MainPage());
-
-       
-
+            MainPage = new NavigationPage(new MainPage());      
           
         }
 
         public App(string databaseLocation)
         {
 
-
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
 
-            gameManager.test = "123";
+            //gameManager.test = "123";
 
             DatabaseLocation = databaseLocation;
 

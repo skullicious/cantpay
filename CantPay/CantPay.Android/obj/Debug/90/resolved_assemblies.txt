@@ -4,6 +4,10 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\Java.Interop.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\mscorlib.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\Plugin.Geolocator.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\Plugin.Permissions.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\SQLite-net.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll

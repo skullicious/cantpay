@@ -1,13 +1,13 @@
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\CantPay.Android.nuget.stamp
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\CantPay.Android.csprojAssemblyReference.cache
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\CantPay.Android.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\CantPay.Android.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\com.companyname.CantPay.apk
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\com.companyname.CantPay-Signed.apk
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\CantPay.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\CantPay.pdb
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\CantPay.Android.nuget.stamp
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\CantPay.Android.csprojAssemblyReference.cache
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\libraryimports.cache.stamp
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\res.flag
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\CantPay.Android.csproj.CoreCompileInputs.cache
@@ -55,7 +55,6 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\System.Runt
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\Mono.Security.pdb
-C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\CantPay.dll.mdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\System.Numerics.Vectors.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\CantPay.Android.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\FormsViewGroup.pdb
@@ -80,6 +79,7 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\System.Web.Services.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\Mono.Security.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\System.Numerics.Vectors.pdb
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\bin\Debug\CantPay.dll.mdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\linksrc\CantPay.dll.mdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\CantPay.dll.mdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\android\assets\CantPay.Android.pdb

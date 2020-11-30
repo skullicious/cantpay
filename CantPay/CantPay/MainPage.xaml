@@ -17,6 +17,19 @@
                        VerticalOptions="CenterAndExpand" 
                        Text="Can't Pay? We'll Take It Away!" 
                        FontFamily="{StaticResource NormalFont}" />
+    
+        <Button x:Name="seedButton" 
+                Text="Seed World!" FontFamily="{StaticResource NormalFont}" 
+                Margin="150,50,150,200"
+                BackgroundColor="#8bac0f" 
+                TextColor="#0f380f" 
+                BorderRadius="1" 
+                BorderColor="#306230"
+                BorderWidth="2"    
+                HorizontalOptions="Center"
+                Clicked="SeedButton_Clicked"
+                />
+
         <Button x:Name="playButton" 
                 Text="Start!" FontFamily="{StaticResource NormalFont}" 
                 Margin="150,50,150,200"

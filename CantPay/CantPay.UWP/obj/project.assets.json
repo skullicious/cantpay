@@ -230,6 +230,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
         "type": "package",
         "dependencies": {
@@ -488,6 +497,18 @@
           }
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -529,6 +550,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -769,6 +792,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
@@ -1133,6 +1165,18 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -1174,6 +1218,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -1414,6 +1460,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.11": {
@@ -1779,6 +1834,18 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -1820,6 +1887,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -2060,6 +2129,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
@@ -2422,6 +2500,18 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -2463,6 +2553,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -2703,6 +2795,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
@@ -3067,6 +3168,18 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -3108,6 +3221,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -3348,6 +3463,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
@@ -3713,6 +3837,18 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -3754,6 +3890,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -3994,6 +4132,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
@@ -4358,6 +4505,18 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -4399,6 +4558,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -4639,6 +4800,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.9-rel-29512-01": {
@@ -5004,6 +5174,18 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.Forms/4.8.0.1687": {
         "type": "package",
         "dependencies": {
@@ -5045,6 +5227,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
           "Xamarin.Forms.Maps": "4.8.0.1687",
           "sqlite-net-pcl": "1.7.335"
@@ -5598,6 +5782,37 @@
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.11": {
@@ -9679,6 +9894,33 @@
         "win2d.uwp.nuspec"
       ]
     },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "type": "package",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Geolocator.dll",
+        "lib/monoandroid71/Plugin.Geolocator.xml",
+        "lib/netstandard1.0/Plugin.Geolocator.dll",
+        "lib/netstandard1.0/Plugin.Geolocator.xml",
+        "lib/netstandard2.0/Plugin.Geolocator.dll",
+        "lib/netstandard2.0/Plugin.Geolocator.xml",
+        "lib/uap10.0.10240/Plugin.Geolocator.dll",
+        "lib/uap10.0.10240/Plugin.Geolocator.pri",
+        "lib/uap10.0.10240/Plugin.Geolocator.xml",
+        "lib/xamarinios10/Plugin.Geolocator.dll",
+        "lib/xamarinios10/Plugin.Geolocator.xml",
+        "lib/xamarinmac20/Plugin.Geolocator.dll",
+        "lib/xamarinmac20/Plugin.Geolocator.xml",
+        "lib/xamarintvos10/Plugin.Geolocator.dll",
+        "lib/xamarintvos10/Plugin.Geolocator.xml",
+        "readme.txt",
+        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+        "xam.plugin.geolocator.nuspec"
+      ]
+    },
     "Xamarin.Forms/4.8.0.1687": {
       "sha512": "o9ACAbleXxorZzIHRBzIloPollwVC7+YTfxE8r3L2frArCHUkrHIy+K+azQag/Un4h2u88DS01HqR16/lMD8zQ==",
       "type": "package",
@@ -10042,6 +10284,8 @@
     "UAP,Version=v10.0.16299": [
       "CantPay >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.11",
+      "Newtonsoft.Json >= 12.0.3",
+      "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.Forms >= 4.8.0.1687",
       "Xamarin.Forms.Maps >= 4.8.0.1687",
       "sqlite-net-pcl >= 1.7.335"
@@ -10094,6 +10338,14 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "Xam.Plugin.Geolocator": {
+            "target": "Package",
+            "version": "[4.5.0.6, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

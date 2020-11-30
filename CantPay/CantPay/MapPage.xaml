@@ -10,7 +10,7 @@
 
         <StackLayout BackgroundColor="#a6e54c">
 
-            <maps:Map x:Name="map"/>
+            <maps:Map x:Name="gameLocationsMap"/>
             
             
             

@@ -1,5 +1,6 @@
 ﻿using CantPay.Helpers;
 using CantPay.Models;
+using Plugin.Geolocator;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +17,7 @@ namespace CantPay
 	public partial class MapPage : ContentPage
 	{
 		public MapPage ()
-		{
-
-            
-
-
+		{                                
 			InitializeComponent ();
 
             GameManager gameManager = GameManager.Instance();
@@ -28,21 +25,46 @@ namespace CantPay
             NavigationPage.SetHasNavigationBar(this, false);
 
           
-            map.IsShowingUser = true;
+            gameLocationsMap.IsShowingUser = true;
 
-            map.HasZoomEnabled = true;
+            gameLocationsMap.HasZoomEnabled = true;
 
+            //DisplayAlert("Alert", gameManager.ToString , "OK");                     
+                                    
+        }
 
-            DisplayAlert("Alert", gameManager.test, "OK");
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
 
-            
+            var locator = CrossGeolocator.Current;
 
-                        
+            locator.PositionChanged += Locator_PositionChanged;
+
+            await locator.StartListeningAsync(TimeSpan.Zero, 100);
+
+            var position = await locator.GetPositionAsync();
+
+            var center = new Xamarin.Forms.Maps.Position(position.Latitude, position.Longitude);
+
+            var span = new Xamarin.Forms.Maps.MapSpan(center, 2, 2);
+
+            gameLocationsMap.MoveToRegion(span);
+
+            var gameLocations = await GameLocation.Read(); 
+
+            DisplayGameLocationsInMap(gameLocations);
+                
+         //  var gameLocations = await GameLocation.GetGameLocations(position.Latitude, position.Longitude);
+                 
         }
 
 
+    
 
-        private void DisplayGameLocations(List<GameLocation> gameLocations)
+
+
+        private void DisplayGameLocationsInMap(List<GameLocation> gameLocations)
         {
             foreach (var gameLocation in gameLocations)
             {
@@ -64,5 +86,29 @@ namespace CantPay
 
             }
         }
-	}
+
+
+        private void Locator_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
+        {
+            var center = new Xamarin.Forms.Maps.Position(e.Position.Latitude, e.Position.Longitude);
+
+            var span = new Xamarin.Forms.Maps.MapSpan(center, 2, 2);
+
+            gameLocationsMap.MoveToRegion(span);
+        }
+
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+
+            var locator = CrossGeolocator.Current;
+
+            locator.PositionChanged -= Locator_PositionChanged;
+
+            locator.StopListeningAsync();
+        }
+
+
+    }
 }

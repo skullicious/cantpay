@@ -8,9 +8,17 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\AppxManifes
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Core\CantPay.UWP.exe
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\CantPay.UWP.build.appxrecipe
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\System.Runtime.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\SQLite-net.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\e_sqlite3.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Plugin.Geolocator.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Xamarin.Forms.Core.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
@@ -54,6 +62,7 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\qualifiers.
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\Plugin.Geolocator.pri.xml
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\obj\x86\Debug\ProjectArchitectures.txt
