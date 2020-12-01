@@ -1,4 +1,6 @@
 ﻿using CantPay.Helpers;
+using CantPay.Interfaces;
+using CantPay.Services;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,6 +13,8 @@ namespace CantPay
         GameManager gameManager = GameManager.Instance();
 
         public static string DatabaseLocation = string.Empty;
+
+        public static ICloudService CloudService { get; set; }
 
         public App()
         {
@@ -25,6 +29,8 @@ namespace CantPay
         {
 
             InitializeComponent();
+
+            CloudService = new AzureCloudService();
 
             MainPage = new NavigationPage(new MainPage());
 

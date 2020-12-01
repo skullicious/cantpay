@@ -29,7 +29,7 @@ namespace CantPay.Helpers
                 Tuple.Create("Fish and Chips", "4edd64a0c7ddd24ca188df1a"),
                 Tuple.Create("Church", "4bf58dd8d48988d132941735"),            
                 Tuple.Create("Bust Station", "4bf58dd8d48988d1fe931735"),
-                //Tuple.Create("Vape Store", "56aa371be4b08b9a8d57355c"),
+                //Tuple.Create("Vape Store", "56aa371be4b08b9a8d57355c") //returns null/0 results
             };                                                                               
 
             // Need to look at null addresses and NULL/0 results for certain location types.
