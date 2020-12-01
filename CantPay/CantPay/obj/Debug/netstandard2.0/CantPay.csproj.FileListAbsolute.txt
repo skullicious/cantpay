@@ -16,5 +16,4 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\Cant
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.pdb
-C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.csprojAssemblyReference.cache
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\XamlC.stamp
