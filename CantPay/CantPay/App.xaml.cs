@@ -21,7 +21,7 @@ namespace CantPay
             
             InitializeComponent();            
 
-            MainPage = new NavigationPage(new MainPage());      
+         //   MainPage = new NavigationPage(new MainPage());      
           
         }
 
@@ -31,6 +31,8 @@ namespace CantPay
             InitializeComponent();
 
             CloudService = new AzureCloudService();
+
+            ServiceLocator.Instance.Add<ICloudService, AzureCloudService>();
 
             MainPage = new NavigationPage(new MainPage());
 

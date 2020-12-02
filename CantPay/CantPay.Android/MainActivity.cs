@@ -8,6 +8,9 @@ using Android.Widget;
 using Android.OS;
 using Android;
 using System.IO;
+using CantPay.Droid.Services;
+using Xamarin.Forms;
+using CantPay.Interfaces;
 
 namespace CantPay.Droid
 {
@@ -29,7 +32,13 @@ namespace CantPay.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            ((DroidLoginProvider)DependencyService.Get<ILoginProvider>()).Init(this); //Initializes to allow login provider ref access
+
             Xamarin.FormsMaps.Init(this, savedInstanceState);
 
             string dbName = "cantpay_db.sqlite";

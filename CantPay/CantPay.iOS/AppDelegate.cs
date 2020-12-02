@@ -25,6 +25,8 @@ namespace CantPay.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
+            Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
+
             Xamarin.FormsMaps.Init();
 
             string dbName = "cantpay_db.sqlite";

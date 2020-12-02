@@ -3,6 +3,8 @@ using Microsoft.WindowsAzure.MobileServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace CantPay.Services
 {
@@ -12,12 +14,19 @@ namespace CantPay.Services
 
         public AzureCloudService()
         {
-            client = new MobileServiceClient("http://travelappxbackend.azurewebsites.net");
+            client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
         }
 
         public ICloudTable<T> GetTable<T>() where T : TableData
         {
             return new AzureCloudTable<T>(client);
+        }
+
+        public Task LoginAsync()
+        {
+            var loginProvider = DependencyService.Get<ILoginProvider>();
+
+            return loginProvider.LoginAsync(client);
         }
     }
 }

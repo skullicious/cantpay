@@ -26,360 +26,6 @@ namespace CantPay.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.alpha = global::CantPay.Droid.Resource.Attribute.alpha;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.coordinatorLayoutStyle = global::CantPay.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.font = global::CantPay.Droid.Resource.Attribute.font;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderAuthority = global::CantPay.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderCerts = global::CantPay.Droid.Resource.Attribute.fontProviderCerts;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderFetchStrategy = global::CantPay.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderFetchTimeout = global::CantPay.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderPackage = global::CantPay.Droid.Resource.Attribute.fontProviderPackage;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontProviderQuery = global::CantPay.Droid.Resource.Attribute.fontProviderQuery;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontStyle = global::CantPay.Droid.Resource.Attribute.fontStyle;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontVariationSettings = global::CantPay.Droid.Resource.Attribute.fontVariationSettings;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.fontWeight = global::CantPay.Droid.Resource.Attribute.fontWeight;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.keylines = global::CantPay.Droid.Resource.Attribute.keylines;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_anchor = global::CantPay.Droid.Resource.Attribute.layout_anchor;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_anchorGravity = global::CantPay.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_behavior = global::CantPay.Droid.Resource.Attribute.layout_behavior;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_dodgeInsetEdges = global::CantPay.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_insetEdge = global::CantPay.Droid.Resource.Attribute.layout_insetEdge;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.layout_keyline = global::CantPay.Droid.Resource.Attribute.layout_keyline;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.statusBarBackground = global::CantPay.Droid.Resource.Attribute.statusBarBackground;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Attribute.ttcIndex = global::CantPay.Droid.Resource.Attribute.ttcIndex;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_bg_grey = global::CantPay.Droid.Resource.Color.browser_actions_bg_grey;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_divider_color = global::CantPay.Droid.Resource.Color.browser_actions_divider_color;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_text_color = global::CantPay.Droid.Resource.Color.browser_actions_text_color;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.browser_actions_title_color = global::CantPay.Droid.Resource.Color.browser_actions_title_color;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.notification_action_color_filter = global::CantPay.Droid.Resource.Color.notification_action_color_filter;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.notification_icon_bg_color = global::CantPay.Droid.Resource.Color.notification_icon_bg_color;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.ripple_material_light = global::CantPay.Droid.Resource.Color.ripple_material_light;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Color.secondary_text_default_material_light = global::CantPay.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.browser_actions_context_menu_max_width = global::CantPay.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.browser_actions_context_menu_min_padding = global::CantPay.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_inset_horizontal_material = global::CantPay.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_inset_vertical_material = global::CantPay.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_padding_horizontal_material = global::CantPay.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_button_padding_vertical_material = global::CantPay.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_control_corner_material = global::CantPay.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_notification_large_icon_max_height = global::CantPay.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.compat_notification_large_icon_max_width = global::CantPay.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_action_icon_size = global::CantPay.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_action_text_size = global::CantPay.Droid.Resource.Dimension.notification_action_text_size;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_big_circle_margin = global::CantPay.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_content_margin_start = global::CantPay.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_large_icon_height = global::CantPay.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_large_icon_width = global::CantPay.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_main_column_padding_top = global::CantPay.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_media_narrow_margin = global::CantPay.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_right_icon_size = global::CantPay.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_right_side_padding_top = global::CantPay.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_small_icon_background_padding = global::CantPay.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_small_icon_size_as_large = global::CantPay.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_subtext_size = global::CantPay.Droid.Resource.Dimension.notification_subtext_size;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_top_pad = global::CantPay.Droid.Resource.Dimension.notification_top_pad;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Dimension.notification_top_pad_large_text = global::CantPay.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_action_background = global::CantPay.Droid.Resource.Drawable.notification_action_background;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg = global::CantPay.Droid.Resource.Drawable.notification_bg;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_low = global::CantPay.Droid.Resource.Drawable.notification_bg_low;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_low_normal = global::CantPay.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_low_pressed = global::CantPay.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_normal = global::CantPay.Droid.Resource.Drawable.notification_bg_normal;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_bg_normal_pressed = global::CantPay.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_icon_background = global::CantPay.Droid.Resource.Drawable.notification_icon_background;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_template_icon_bg = global::CantPay.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_template_icon_low_bg = global::CantPay.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notification_tile_bg = global::CantPay.Droid.Resource.Drawable.notification_tile_bg;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Drawable.notify_panel_notification_icon_bg = global::CantPay.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.actions = global::CantPay.Droid.Resource.Id.actions;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_container = global::CantPay.Droid.Resource.Id.action_container;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_divider = global::CantPay.Droid.Resource.Id.action_divider;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_image = global::CantPay.Droid.Resource.Id.action_image;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.action_text = global::CantPay.Droid.Resource.Id.action_text;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.async = global::CantPay.Droid.Resource.Id.async;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.blocking = global::CantPay.Droid.Resource.Id.blocking;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.bottom = global::CantPay.Droid.Resource.Id.bottom;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_header_text = global::CantPay.Droid.Resource.Id.browser_actions_header_text;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_items = global::CantPay.Droid.Resource.Id.browser_actions_menu_items;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_item_icon = global::CantPay.Droid.Resource.Id.browser_actions_menu_item_icon;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_item_text = global::CantPay.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.browser_actions_menu_view = global::CantPay.Droid.Resource.Id.browser_actions_menu_view;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.center = global::CantPay.Droid.Resource.Id.center;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.chronometer = global::CantPay.Droid.Resource.Id.chronometer;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.end = global::CantPay.Droid.Resource.Id.end;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.fill = global::CantPay.Droid.Resource.Id.fill;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.forever = global::CantPay.Droid.Resource.Id.forever;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.icon = global::CantPay.Droid.Resource.Id.icon;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.icon_group = global::CantPay.Droid.Resource.Id.icon_group;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.info = global::CantPay.Droid.Resource.Id.info;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.italic = global::CantPay.Droid.Resource.Id.italic;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.left = global::CantPay.Droid.Resource.Id.left;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.line1 = global::CantPay.Droid.Resource.Id.line1;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.line3 = global::CantPay.Droid.Resource.Id.line3;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.none = global::CantPay.Droid.Resource.Id.none;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.normal = global::CantPay.Droid.Resource.Id.normal;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.notification_background = global::CantPay.Droid.Resource.Id.notification_background;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.notification_main_column = global::CantPay.Droid.Resource.Id.notification_main_column;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.notification_main_column_container = global::CantPay.Droid.Resource.Id.notification_main_column_container;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.right = global::CantPay.Droid.Resource.Id.right;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.right_icon = global::CantPay.Droid.Resource.Id.right_icon;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.right_side = global::CantPay.Droid.Resource.Id.right_side;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.start = global::CantPay.Droid.Resource.Id.start;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.tag_transition_group = global::CantPay.Droid.Resource.Id.tag_transition_group;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.tag_unhandled_key_event_manager = global::CantPay.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.tag_unhandled_key_listeners = global::CantPay.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.text = global::CantPay.Droid.Resource.Id.text;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.text2 = global::CantPay.Droid.Resource.Id.text2;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.time = global::CantPay.Droid.Resource.Id.time;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.title = global::CantPay.Droid.Resource.Id.title;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Id.top = global::CantPay.Droid.Resource.Id.top;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Integer.status_bar_notification_info_maxnum = global::CantPay.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.browser_actions_context_menu_page = global::CantPay.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.browser_actions_context_menu_row = global::CantPay.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_action = global::CantPay.Droid.Resource.Layout.notification_action;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_action_tombstone = global::CantPay.Droid.Resource.Layout.notification_action_tombstone;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_custom_big = global::CantPay.Droid.Resource.Layout.notification_template_custom_big;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_icon_group = global::CantPay.Droid.Resource.Layout.notification_template_icon_group;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_part_chronometer = global::CantPay.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Layout.notification_template_part_time = global::CantPay.Droid.Resource.Layout.notification_template_part_time;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.String.ApplicationName = global::CantPay.Droid.Resource.String.ApplicationName;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.String.Hello = global::CantPay.Droid.Resource.String.Hello;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.String.status_bar_notification_info_overflow = global::CantPay.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Info = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Time = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.TextAppearance_Compat_Notification_Title = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.Widget_Compat_NotificationActionContainer = global::CantPay.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.Widget_Compat_NotificationActionText = global::CantPay.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Style.Widget_Support_CoordinatorLayout = global::CantPay.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem = global::CantPay.Droid.Resource.Styleable.ColorStateListItem;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem_alpha = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem_android_alpha = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.ColorStateListItem_android_color = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_keylines = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily = global::CantPay.Droid.Resource.Styleable.FontFamily;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont = global::CantPay.Droid.Resource.Styleable.FontFamilyFont;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_font = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_font = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_fontStyle = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_fontWeight = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamilyFont_ttcIndex = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderAuthority = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderCerts = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderPackage = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.FontFamily_fontProviderQuery = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor = global::CantPay.Droid.Resource.Styleable.GradientColor;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColorItem = global::CantPay.Droid.Resource.Styleable.GradientColorItem;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColorItem_android_color = global::CantPay.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColorItem_android_offset = global::CantPay.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_centerColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_centerX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_centerY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_endColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_endX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_endY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_gradientRadius = global::CantPay.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_startColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_startX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_startY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_tileMode = global::CantPay.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Styleable.GradientColor_android_type = global::CantPay.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Microsoft.WindowsAzure.MobileServices.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::CantPay.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
-			global::PCLCrypto.Resource.String.ApplicationName = global::CantPay.Droid.Resource.String.ApplicationName;
-			global::PCLCrypto.Resource.String.Hello = global::CantPay.Droid.Resource.String.Hello;
-			global::Xamarin.Essentials.Resource.Attribute.alpha = global::CantPay.Droid.Resource.Attribute.alpha;
-			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::CantPay.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Xamarin.Essentials.Resource.Attribute.font = global::CantPay.Droid.Resource.Attribute.font;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::CantPay.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::CantPay.Droid.Resource.Attribute.fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::CantPay.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::CantPay.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::CantPay.Droid.Resource.Attribute.fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::CantPay.Droid.Resource.Attribute.fontProviderQuery;
-			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::CantPay.Droid.Resource.Attribute.fontStyle;
-			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::CantPay.Droid.Resource.Attribute.fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::CantPay.Droid.Resource.Attribute.fontWeight;
-			global::Xamarin.Essentials.Resource.Attribute.keylines = global::CantPay.Droid.Resource.Attribute.keylines;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::CantPay.Droid.Resource.Attribute.layout_anchor;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::CantPay.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::CantPay.Droid.Resource.Attribute.layout_behavior;
-			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::CantPay.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::CantPay.Droid.Resource.Attribute.layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::CantPay.Droid.Resource.Attribute.layout_keyline;
-			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::CantPay.Droid.Resource.Attribute.statusBarBackground;
-			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::CantPay.Droid.Resource.Attribute.ttcIndex;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::CantPay.Droid.Resource.Color.browser_actions_bg_grey;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::CantPay.Droid.Resource.Color.browser_actions_divider_color;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::CantPay.Droid.Resource.Color.browser_actions_text_color;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::CantPay.Droid.Resource.Color.browser_actions_title_color;
-			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::CantPay.Droid.Resource.Color.notification_action_color_filter;
-			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::CantPay.Droid.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::CantPay.Droid.Resource.Color.ripple_material_light;
-			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::CantPay.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::CantPay.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::CantPay.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::CantPay.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::CantPay.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::CantPay.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::CantPay.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::CantPay.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::CantPay.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::CantPay.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::CantPay.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::CantPay.Droid.Resource.Dimension.notification_action_text_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::CantPay.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::CantPay.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::CantPay.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::CantPay.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::CantPay.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::CantPay.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::CantPay.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::CantPay.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::CantPay.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::CantPay.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::CantPay.Droid.Resource.Dimension.notification_subtext_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::CantPay.Droid.Resource.Dimension.notification_top_pad;
-			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::CantPay.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::CantPay.Droid.Resource.Drawable.notification_action_background;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::CantPay.Droid.Resource.Drawable.notification_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::CantPay.Droid.Resource.Drawable.notification_bg_low;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::CantPay.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::CantPay.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::CantPay.Droid.Resource.Drawable.notification_bg_normal;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::CantPay.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::CantPay.Droid.Resource.Drawable.notification_icon_background;
-			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::CantPay.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::CantPay.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::CantPay.Droid.Resource.Drawable.notification_tile_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::CantPay.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Essentials.Resource.Id.actions = global::CantPay.Droid.Resource.Id.actions;
-			global::Xamarin.Essentials.Resource.Id.action_container = global::CantPay.Droid.Resource.Id.action_container;
-			global::Xamarin.Essentials.Resource.Id.action_divider = global::CantPay.Droid.Resource.Id.action_divider;
-			global::Xamarin.Essentials.Resource.Id.action_image = global::CantPay.Droid.Resource.Id.action_image;
-			global::Xamarin.Essentials.Resource.Id.action_text = global::CantPay.Droid.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.async = global::CantPay.Droid.Resource.Id.async;
-			global::Xamarin.Essentials.Resource.Id.blocking = global::CantPay.Droid.Resource.Id.blocking;
-			global::Xamarin.Essentials.Resource.Id.bottom = global::CantPay.Droid.Resource.Id.bottom;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::CantPay.Droid.Resource.Id.browser_actions_header_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::CantPay.Droid.Resource.Id.browser_actions_menu_items;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::CantPay.Droid.Resource.Id.browser_actions_menu_item_icon;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::CantPay.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::CantPay.Droid.Resource.Id.browser_actions_menu_view;
-			global::Xamarin.Essentials.Resource.Id.center = global::CantPay.Droid.Resource.Id.center;
-			global::Xamarin.Essentials.Resource.Id.chronometer = global::CantPay.Droid.Resource.Id.chronometer;
-			global::Xamarin.Essentials.Resource.Id.end = global::CantPay.Droid.Resource.Id.end;
-			global::Xamarin.Essentials.Resource.Id.fill = global::CantPay.Droid.Resource.Id.fill;
-			global::Xamarin.Essentials.Resource.Id.forever = global::CantPay.Droid.Resource.Id.forever;
-			global::Xamarin.Essentials.Resource.Id.icon = global::CantPay.Droid.Resource.Id.icon;
-			global::Xamarin.Essentials.Resource.Id.icon_group = global::CantPay.Droid.Resource.Id.icon_group;
-			global::Xamarin.Essentials.Resource.Id.info = global::CantPay.Droid.Resource.Id.info;
-			global::Xamarin.Essentials.Resource.Id.italic = global::CantPay.Droid.Resource.Id.italic;
-			global::Xamarin.Essentials.Resource.Id.left = global::CantPay.Droid.Resource.Id.left;
-			global::Xamarin.Essentials.Resource.Id.line1 = global::CantPay.Droid.Resource.Id.line1;
-			global::Xamarin.Essentials.Resource.Id.line3 = global::CantPay.Droid.Resource.Id.line3;
-			global::Xamarin.Essentials.Resource.Id.none = global::CantPay.Droid.Resource.Id.none;
-			global::Xamarin.Essentials.Resource.Id.normal = global::CantPay.Droid.Resource.Id.normal;
-			global::Xamarin.Essentials.Resource.Id.notification_background = global::CantPay.Droid.Resource.Id.notification_background;
-			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::CantPay.Droid.Resource.Id.notification_main_column;
-			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::CantPay.Droid.Resource.Id.notification_main_column_container;
-			global::Xamarin.Essentials.Resource.Id.right = global::CantPay.Droid.Resource.Id.right;
-			global::Xamarin.Essentials.Resource.Id.right_icon = global::CantPay.Droid.Resource.Id.right_icon;
-			global::Xamarin.Essentials.Resource.Id.right_side = global::CantPay.Droid.Resource.Id.right_side;
-			global::Xamarin.Essentials.Resource.Id.start = global::CantPay.Droid.Resource.Id.start;
-			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::CantPay.Droid.Resource.Id.tag_transition_group;
-			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::CantPay.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::CantPay.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Xamarin.Essentials.Resource.Id.text = global::CantPay.Droid.Resource.Id.text;
-			global::Xamarin.Essentials.Resource.Id.text2 = global::CantPay.Droid.Resource.Id.text2;
-			global::Xamarin.Essentials.Resource.Id.time = global::CantPay.Droid.Resource.Id.time;
-			global::Xamarin.Essentials.Resource.Id.title = global::CantPay.Droid.Resource.Id.title;
-			global::Xamarin.Essentials.Resource.Id.top = global::CantPay.Droid.Resource.Id.top;
-			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::CantPay.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::CantPay.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::CantPay.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Xamarin.Essentials.Resource.Layout.notification_action = global::CantPay.Droid.Resource.Layout.notification_action;
-			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::CantPay.Droid.Resource.Layout.notification_action_tombstone;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::CantPay.Droid.Resource.Layout.notification_template_custom_big;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::CantPay.Droid.Resource.Layout.notification_template_icon_group;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::CantPay.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::CantPay.Droid.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::CantPay.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::CantPay.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::CantPay.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::CantPay.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::CantPay.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::CantPay.Droid.Resource.Styleable.ColorStateListItem;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::CantPay.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CantPay.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::CantPay.Droid.Resource.Styleable.FontFamily;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::CantPay.Droid.Resource.Styleable.FontFamilyFont;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::CantPay.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::CantPay.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::CantPay.Droid.Resource.Styleable.GradientColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::CantPay.Droid.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::CantPay.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::CantPay.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::CantPay.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::CantPay.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::CantPay.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::CantPay.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::CantPay.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_in = global::CantPay.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_out = global::CantPay.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::CantPay.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8156,17 +7802,17 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F010010
 			public const int design_snackbar_out = 2130771984;
 			
-			// aapt resource value: 0x7F090018
-			public const int EnterFromLeft = 2131296280;
+			// aapt resource value: 0x7F070018
+			public const int EnterFromLeft = 2131165208;
 			
-			// aapt resource value: 0x7F090019
-			public const int EnterFromRight = 2131296281;
+			// aapt resource value: 0x7F070019
+			public const int EnterFromRight = 2131165209;
 			
-			// aapt resource value: 0x7F090020
-			public const int ExitToLeft = 2131296288;
+			// aapt resource value: 0x7F070020
+			public const int ExitToLeft = 2131165216;
 			
-			// aapt resource value: 0x7F090021
-			public const int ExitToRight = 2131296289;
+			// aapt resource value: 0x7F070021
+			public const int ExitToRight = 2131165217;
 			
 			static Animation()
 			{
@@ -8647,8 +8293,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F040081
 			public const int collapseIcon = 2130968705;
 			
-			// aapt resource value: 0x7F100493
-			public const int collectionViewStyle = 2131756179;
+			// aapt resource value: 0x7F080493
+			public const int collectionViewStyle = 2131231891;
 			
 			// aapt resource value: 0x7F040084
 			public const int color = 2130968708;
@@ -9340,8 +8986,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F040151
 			public const int scrimVisibleHeightTrigger = 2130968913;
 			
-			// aapt resource value: 0x7F100494
-			public const int scrollViewStyle = 2131756180;
+			// aapt resource value: 0x7F080494
+			public const int scrollViewStyle = 2131231892;
 			
 			// aapt resource value: 0x7F040152
 			public const int searchHintIcon = 2130968914;
@@ -13202,9 +12848,6 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F150028
 			public const int appbar_scrolling_view_behavior = 2132082728;
 			
-			// aapt resource value: 0x7F060003
-			public const int ApplicationName = 2131099651;
-			
 			// aapt resource value: 0x7F150029
 			public const int bottom_sheet_behavior = 2132082729;
 			
@@ -13273,9 +12916,6 @@ namespace CantPay.Droid
 			
 			// aapt resource value: 0x7F15002D
 			public const int fab_transformation_sheet_behavior = 2132082733;
-			
-			// aapt resource value: 0x7F060002
-			public const int Hello = 2131099650;
 			
 			// aapt resource value: 0x7F15002E
 			public const int hide_bottom_view_on_scroll_behavior = 2132082734;
@@ -13355,8 +12995,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7F15002F
 			public const int mtrl_chip_close_icon_content_description = 2132082735;
 			
-			// aapt resource value: 0x7F060082
-			public const int overflow_tab_title = 2131099778;
+			// aapt resource value: 0x7F090080
+			public const int overflow_tab_title = 2131296384;
 			
 			// aapt resource value: 0x7F150030
 			public const int password_toggle_content_description = 2132082736;
@@ -14990,11 +14630,11 @@ namespace CantPay.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070082
-			public const int ActionBarLayout_android_layout_gravity = 2131165314;
+			// aapt resource value: 0x7F060082
+			public const int ActionBarLayout_android_layout_gravity = 2131099778;
 			
-			// aapt resource value: 0x7F070052
-			public const int ActionBar_background = 2131165266;
+			// aapt resource value: 0x7F060052
+			public const int ActionBar_background = 2131099730;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -15083,8 +14723,8 @@ namespace CantPay.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070084
-			public const int ActionMenuItemView_android_minWidth = 2131165316;
+			// aapt resource value: 0x7F060084
+			public const int ActionMenuItemView_android_minWidth = 2131099780;
 			
 			public static int[] ActionMenuView = new int[] {
 					0};
@@ -15097,8 +14737,8 @@ namespace CantPay.Droid
 					2130968951,
 					2130969030};
 			
-			// aapt resource value: 0x7F070086
-			public const int ActionMode_background = 2131165318;
+			// aapt resource value: 0x7F060086
+			public const int ActionMode_background = 2131099782;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -15119,8 +14759,8 @@ namespace CantPay.Droid
 					2130968763,
 					2130968824};
 			
-			// aapt resource value: 0x7F070093
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165331;
+			// aapt resource value: 0x7F060093
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131099795;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -15135,8 +14775,8 @@ namespace CantPay.Droid
 					2130968924,
 					2130968925};
 			
-			// aapt resource value: 0x7F070096
-			public const int AlertDialog_android_layout = 2131165334;
+			// aapt resource value: 0x7F060096
+			public const int AlertDialog_android_layout = 2131099798;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonIconDimen = 1;
@@ -15167,8 +14807,8 @@ namespace CantPay.Droid
 					16843157,
 					16843156};
 			
-			// aapt resource value: 0x7F070730
-			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131167024;
+			// aapt resource value: 0x7F060730
+			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131101488;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableCompat_android_dither = 1;
@@ -15189,8 +14829,8 @@ namespace CantPay.Droid
 					16843161,
 					16842960};
 			
-			// aapt resource value: 0x7F070737
-			public const int AnimatedStateListDrawableItem_android_drawable = 2131167031;
+			// aapt resource value: 0x7F060737
+			public const int AnimatedStateListDrawableItem_android_drawable = 2131101495;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableItem_android_id = 1;
@@ -15201,8 +14841,8 @@ namespace CantPay.Droid
 					16843851,
 					16843849};
 			
-			// aapt resource value: 0x7F070740
-			public const int AnimatedStateListDrawableTransition_android_drawable = 2131167040;
+			// aapt resource value: 0x7F060740
+			public const int AnimatedStateListDrawableTransition_android_drawable = 2131101504;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_fromId = 1;
@@ -15227,8 +14867,8 @@ namespace CantPay.Droid
 					2130968940,
 					2130968941};
 			
-			// aapt resource value: 0x7F070112
-			public const int AppBarLayoutStates_state_collapsed = 2131165458;
+			// aapt resource value: 0x7F060112
+			public const int AppBarLayoutStates_state_collapsed = 2131099922;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
@@ -15239,8 +14879,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x7F070105
-			public const int AppBarLayout_android_background = 2131165445;
+			// aapt resource value: 0x7F060105
+			public const int AppBarLayout_android_background = 2131099909;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -15258,8 +14898,8 @@ namespace CantPay.Droid
 					2130968852,
 					2130968853};
 			
-			// aapt resource value: 0x7F070117
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165463;
+			// aapt resource value: 0x7F060117
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131099927;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -15273,8 +14913,8 @@ namespace CantPay.Droid
 					2130969018,
 					2130969019};
 			
-			// aapt resource value: 0x7F070120
-			public const int AppCompatImageView_android_src = 2131165472;
+			// aapt resource value: 0x7F060120
+			public const int AppCompatImageView_android_src = 2131099936;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -15291,8 +14931,8 @@ namespace CantPay.Droid
 					2130969016,
 					2130969017};
 			
-			// aapt resource value: 0x7F070125
-			public const int AppCompatSeekBar_android_thumb = 2131165477;
+			// aapt resource value: 0x7F060125
+			public const int AppCompatSeekBar_android_thumb = 2131099941;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -15312,8 +14952,8 @@ namespace CantPay.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070130
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165488;
+			// aapt resource value: 0x7F060130
+			public const int AppCompatTextHelper_android_drawableBottom = 2131099952;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -15346,8 +14986,8 @@ namespace CantPay.Droid
 					2130968855,
 					2130968983};
 			
-			// aapt resource value: 0x7F070138
-			public const int AppCompatTextView_android_textAppearance = 2131165496;
+			// aapt resource value: 0x7F060138
+			public const int AppCompatTextView_android_textAppearance = 2131099960;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -15502,8 +15142,8 @@ namespace CantPay.Droid
 					2130969052,
 					2130969053};
 			
-			// aapt resource value: 0x7F070150
-			public const int AppCompatTheme_actionBarDivider = 2131165520;
+			// aapt resource value: 0x7F060150
+			public const int AppCompatTheme_actionBarDivider = 2131099984;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -15873,8 +15513,8 @@ namespace CantPay.Droid
 					2130968775,
 					2130968806};
 			
-			// aapt resource value: 0x7F070272
-			public const int BottomAppBar_backgroundTint = 2131165810;
+			// aapt resource value: 0x7F060272
+			public const int BottomAppBar_backgroundTint = 2131100274;
 			
 			// aapt resource value: 0x1
 			public const int BottomAppBar_fabAlignmentMode = 1;
@@ -15903,8 +15543,8 @@ namespace CantPay.Droid
 					2130968840,
 					2130968876};
 			
-			// aapt resource value: 0x7F070279
-			public const int BottomNavigationView_elevation = 2131165817;
+			// aapt resource value: 0x7F060279
+			public const int BottomNavigationView_elevation = 2131100281;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -15939,8 +15579,8 @@ namespace CantPay.Droid
 					2130968636,
 					2130968637};
 			
-			// aapt resource value: 0x7F070290
-			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131165840;
+			// aapt resource value: 0x7F060290
+			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131100304;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -15954,8 +15594,8 @@ namespace CantPay.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070295
-			public const int ButtonBarLayout_allowStacking = 2131165845;
+			// aapt resource value: 0x7F060295
+			public const int ButtonBarLayout_allowStacking = 2131100309;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -15972,8 +15612,8 @@ namespace CantPay.Droid
 					2130968731,
 					2130968732};
 			
-			// aapt resource value: 0x7F070297
-			public const int CardView_android_minHeight = 2131165847;
+			// aapt resource value: 0x7F060297
+			public const int CardView_android_minHeight = 2131100311;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -16055,8 +15695,8 @@ namespace CantPay.Droid
 					2130968926,
 					2130968927};
 			
-			// aapt resource value: 0x7F070346
-			public const int ChipGroup_checkedChip = 2131166022;
+			// aapt resource value: 0x7F060346
+			public const int ChipGroup_checkedChip = 2131100486;
 			
 			// aapt resource value: 0x1
 			public const int ChipGroup_chipSpacing = 1;
@@ -16073,8 +15713,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x5
 			public const int ChipGroup_singleSelection = 5;
 			
-			// aapt resource value: 0x7F070311
-			public const int Chip_android_checkable = 2131165969;
+			// aapt resource value: 0x7F060311
+			public const int Chip_android_checkable = 2131100433;
 			
 			// aapt resource value: 0x1
 			public const int Chip_android_ellipsize = 1;
@@ -16193,8 +15833,8 @@ namespace CantPay.Droid
 					2130969021,
 					2130969031};
 			
-			// aapt resource value: 0x7F070353
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131166035;
+			// aapt resource value: 0x7F060353
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131100499;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -16227,8 +15867,8 @@ namespace CantPay.Droid
 					2130968847,
 					2130968848};
 			
-			// aapt resource value: 0x7F070370
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131166064;
+			// aapt resource value: 0x7F060370
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131100528;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -16256,8 +15896,8 @@ namespace CantPay.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070003
-			public const int ColorStateListItem_alpha = 2131165187;
+			// aapt resource value: 0x7F060003
+			public const int ColorStateListItem_alpha = 2131099651;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -16270,8 +15910,8 @@ namespace CantPay.Droid
 					2130968663,
 					2130968664};
 			
-			// aapt resource value: 0x7F070373
-			public const int CompoundButton_android_button = 2131166067;
+			// aapt resource value: 0x7F060373
+			public const int CompoundButton_android_button = 2131100531;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -16283,8 +15923,8 @@ namespace CantPay.Droid
 					2130968589,
 					2130968596};
 			
-			// aapt resource value: 0x7F070041
-			public const int CoordinatorLayout_keylines = 2131165249;
+			// aapt resource value: 0x7F060041
+			public const int CoordinatorLayout_keylines = 2131099713;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -16295,8 +15935,8 @@ namespace CantPay.Droid
 					2130968594,
 					2130968595};
 			
-			// aapt resource value: 0x7F070044
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165252;
+			// aapt resource value: 0x7F060044
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131099716;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -16323,8 +15963,8 @@ namespace CantPay.Droid
 					2130968642,
 					2130968643};
 			
-			// aapt resource value: 0x7F070377
-			public const int DesignTheme_bottomSheetDialogTheme = 2131166071;
+			// aapt resource value: 0x7F060377
+			public const int DesignTheme_bottomSheetDialogTheme = 2131100535;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -16339,8 +15979,8 @@ namespace CantPay.Droid
 					2130968931,
 					2130969011};
 			
-			// aapt resource value: 0x7F070380
-			public const int DrawerArrowToggle_arrowHeadLength = 2131166080;
+			// aapt resource value: 0x7F060380
+			public const int DrawerArrowToggle_arrowHeadLength = 2131100544;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -16378,8 +16018,8 @@ namespace CantPay.Droid
 					2130968922,
 					2130969041};
 			
-			// aapt resource value: 0x7F070389
-			public const int FloatingActionButton_backgroundTint = 2131166089;
+			// aapt resource value: 0x7F060389
+			public const int FloatingActionButton_backgroundTint = 2131100553;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -16387,8 +16027,8 @@ namespace CantPay.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070403
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166211;
+			// aapt resource value: 0x7F060403
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131100675;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -16427,8 +16067,8 @@ namespace CantPay.Droid
 					2130968834,
 					2130968856};
 			
-			// aapt resource value: 0x7F070405
-			public const int FlowLayout_itemSpacing = 2131166213;
+			// aapt resource value: 0x7F060405
+			public const int FlowLayout_itemSpacing = 2131100677;
 			
 			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
@@ -16453,8 +16093,8 @@ namespace CantPay.Droid
 					2130968587,
 					2130968588};
 			
-			// aapt resource value: 0x7F070014
-			public const int FontFamilyFont_android_font = 2131165204;
+			// aapt resource value: 0x7F060014
+			public const int FontFamilyFont_android_font = 2131099668;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -16483,8 +16123,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0x7F070007
-			public const int FontFamily_fontProviderAuthority = 2131165191;
+			// aapt resource value: 0x7F060007
+			public const int FontFamily_fontProviderAuthority = 2131099655;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -16506,8 +16146,8 @@ namespace CantPay.Droid
 					16843264,
 					2130968796};
 			
-			// aapt resource value: 0x7F070408
-			public const int ForegroundLinearLayout_android_foreground = 2131166216;
+			// aapt resource value: 0x7F060408
+			public const int ForegroundLinearLayout_android_foreground = 2131100680;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -16533,14 +16173,14 @@ namespace CantPay.Droid
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0x7F070038
-			public const int GradientColorItem_android_color = 2131165240;
+			// aapt resource value: 0x7F060038
+			public const int GradientColorItem_android_color = 2131099704;
 			
 			// aapt resource value: 0x1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 0x7F070025
-			public const int GradientColor_android_centerColor = 2131165221;
+			// aapt resource value: 0x7F060025
+			public const int GradientColor_android_centerColor = 2131099685;
 			
 			// aapt resource value: 0x1
 			public const int GradientColor_android_centerX = 1;
@@ -16578,8 +16218,8 @@ namespace CantPay.Droid
 			public static int[] ItemsViewRendererTheme = new int[] {
 					0};
 			
-			// aapt resource value: 0x7F070758
-			public const int ItemsViewRendererTheme_collectionViewStyle = 2131167064;
+			// aapt resource value: 0x7F060758
+			public const int ItemsViewRendererTheme_collectionViewStyle = 2131101528;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16843046,
@@ -16592,8 +16232,8 @@ namespace CantPay.Droid
 					2130968875,
 					2130968921};
 			
-			// aapt resource value: 0x7F070412
-			public const int LinearLayoutCompat_android_baselineAligned = 2131166226;
+			// aapt resource value: 0x7F060412
+			public const int LinearLayoutCompat_android_baselineAligned = 2131100690;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -16619,8 +16259,8 @@ namespace CantPay.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070422
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166242;
+			// aapt resource value: 0x7F060422
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131100706;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -16641,8 +16281,8 @@ namespace CantPay.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070427
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166247;
+			// aapt resource value: 0x7F060427
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131100711;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -16658,8 +16298,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x1
 			public const int LoadingImageView_imageAspectRatio = 1;
 			
-			// aapt resource value: 0x7F070765
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131167077;
+			// aapt resource value: 0x7F060765
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131101541;
 			
 			public static int[] MapAttrs = new int[] {
 					1,
@@ -16726,8 +16366,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F070784
-			public const int MapAttrs_mapType = 2131167108;
+			// aapt resource value: 0x7F060784
+			public const int MapAttrs_mapType = 2131101572;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -16777,8 +16417,8 @@ namespace CantPay.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F070430
-			public const int MaterialButton_android_insetBottom = 2131166256;
+			// aapt resource value: 0x7F060430
+			public const int MaterialButton_android_insetBottom = 2131100720;
 			
 			// aapt resource value: 0x1
 			public const int MaterialButton_android_insetLeft = 1;
@@ -16829,8 +16469,8 @@ namespace CantPay.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F070447
-			public const int MaterialCardView_strokeColor = 2131166279;
+			// aapt resource value: 0x7F060447
+			public const int MaterialCardView_strokeColor = 2131100743;
 			
 			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
@@ -16869,8 +16509,8 @@ namespace CantPay.Droid
 					2130969004,
 					2130969008};
 			
-			// aapt resource value: 0x7F070450
-			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131166288;
+			// aapt resource value: 0x7F060450
+			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131100752;
 			
 			// aapt resource value: 0x1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
@@ -16971,8 +16611,8 @@ namespace CantPay.Droid
 					2130968691,
 					2130968752};
 			
-			// aapt resource value: 0x7F070754
-			public const int MediaRouteButton_android_minHeight = 2131167060;
+			// aapt resource value: 0x7F060754
+			public const int MediaRouteButton_android_minHeight = 2131101524;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -16991,8 +16631,8 @@ namespace CantPay.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070483
-			public const int MenuGroup_android_checkableBehavior = 2131166339;
+			// aapt resource value: 0x7F060483
+			public const int MenuGroup_android_checkableBehavior = 2131100803;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -17034,8 +16674,8 @@ namespace CantPay.Droid
 					2130968920,
 					2130969036};
 			
-			// aapt resource value: 0x7F070490
-			public const int MenuItem_actionLayout = 2131166352;
+			// aapt resource value: 0x7F060490
+			public const int MenuItem_actionLayout = 2131100816;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -17114,8 +16754,8 @@ namespace CantPay.Droid
 					2130968899,
 					2130968946};
 			
-			// aapt resource value: 0x7F070514
-			public const int MenuView_android_headerBackground = 2131166484;
+			// aapt resource value: 0x7F060514
+			public const int MenuView_android_headerBackground = 2131100948;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -17155,8 +16795,8 @@ namespace CantPay.Droid
 					2130968838,
 					2130968876};
 			
-			// aapt resource value: 0x7F070524
-			public const int NavigationView_android_background = 2131166500;
+			// aapt resource value: 0x7F060524
+			public const int NavigationView_android_background = 2131100964;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -17199,11 +16839,11 @@ namespace CantPay.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968937};
 			
-			// aapt resource value: 0x7F070541
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166529;
+			// aapt resource value: 0x7F060541
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131100993;
 			
-			// aapt resource value: 0x7F070537
-			public const int PopupWindow_android_popupAnimationStyle = 2131166519;
+			// aapt resource value: 0x7F060537
+			public const int PopupWindow_android_popupAnimationStyle = 2131100983;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -17215,8 +16855,8 @@ namespace CantPay.Droid
 					2130968884,
 					2130968887};
 			
-			// aapt resource value: 0x7F070543
-			public const int RecycleListView_paddingBottomNoButtons = 2131166531;
+			// aapt resource value: 0x7F060543
+			public const int RecycleListView_paddingBottomNoButtons = 2131100995;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -17234,8 +16874,8 @@ namespace CantPay.Droid
 					2130968930,
 					2130968936};
 			
-			// aapt resource value: 0x7F070546
-			public const int RecyclerView_android_descendantFocusability = 2131166534;
+			// aapt resource value: 0x7F060546
+			public const int RecyclerView_android_descendantFocusability = 2131100998;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -17270,20 +16910,20 @@ namespace CantPay.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968825};
 			
-			// aapt resource value: 0x7F070558
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166552;
+			// aapt resource value: 0x7F060558
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131101016;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968635};
 			
-			// aapt resource value: 0x7F070560
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166560;
+			// aapt resource value: 0x7F060560
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131101024;
 			
 			public static int[] ScrollViewRendererTheme = new int[] {
 					0};
 			
-			// aapt resource value: 0x7F070760
-			public const int ScrollViewRendererTheme_scrollViewStyle = 2131167072;
+			// aapt resource value: 0x7F060760
+			public const int ScrollViewRendererTheme_scrollViewStyle = 2131101536;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -17304,8 +16944,8 @@ namespace CantPay.Droid
 					2130968952,
 					2130969043};
 			
-			// aapt resource value: 0x7F070562
-			public const int SearchView_android_focusable = 2131166562;
+			// aapt resource value: 0x7F060562
+			public const int SearchView_android_focusable = 2131101026;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -17360,8 +17000,8 @@ namespace CantPay.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070767
-			public const int SignInButton_buttonSize = 2131167079;
+			// aapt resource value: 0x7F060767
+			public const int SignInButton_buttonSize = 2131101543;
 			
 			// aapt resource value: 0x1
 			public const int SignInButton_colorScheme = 1;
@@ -17378,8 +17018,8 @@ namespace CantPay.Droid
 					2130968758,
 					2130968872};
 			
-			// aapt resource value: 0x7F070583
-			public const int SnackbarLayout_android_maxWidth = 2131166595;
+			// aapt resource value: 0x7F060583
+			public const int SnackbarLayout_android_maxWidth = 2131101059;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -17387,8 +17027,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0x7F070580
-			public const int Snackbar_snackbarButtonStyle = 2131166592;
+			// aapt resource value: 0x7F060580
+			public const int Snackbar_snackbarButtonStyle = 2131101056;
 			
 			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
@@ -17400,8 +17040,8 @@ namespace CantPay.Droid
 					16843131,
 					2130968897};
 			
-			// aapt resource value: 0x7F070587
-			public const int Spinner_android_dropDownWidth = 2131166599;
+			// aapt resource value: 0x7F060587
+			public const int Spinner_android_dropDownWidth = 2131101063;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -17426,11 +17066,11 @@ namespace CantPay.Droid
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0x7F070752
-			public const int StateListDrawableItem_android_drawable = 2131167058;
+			// aapt resource value: 0x7F060752
+			public const int StateListDrawableItem_android_drawable = 2131101522;
 			
-			// aapt resource value: 0x7F070745
-			public const int StateListDrawable_android_constantSize = 2131167045;
+			// aapt resource value: 0x7F060745
+			public const int StateListDrawable_android_constantSize = 2131101509;
 			
 			// aapt resource value: 0x1
 			public const int StateListDrawable_android_dither = 1;
@@ -17463,8 +17103,8 @@ namespace CantPay.Droid
 					2130969038,
 					2130969039};
 			
-			// aapt resource value: 0x7F070593
-			public const int SwitchCompat_android_textOff = 2131166611;
+			// aapt resource value: 0x7F060593
+			public const int SwitchCompat_android_textOff = 2131101075;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -17510,8 +17150,8 @@ namespace CantPay.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070608
-			public const int TabItem_android_icon = 2131166728;
+			// aapt resource value: 0x7F060608
+			public const int TabItem_android_icon = 2131101192;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -17546,8 +17186,8 @@ namespace CantPay.Droid
 					2130968981,
 					2130968982};
 			
-			// aapt resource value: 0x7F070612
-			public const int TabLayout_tabBackground = 2131166738;
+			// aapt resource value: 0x7F060612
+			public const int TabLayout_tabBackground = 2131101202;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -17636,8 +17276,8 @@ namespace CantPay.Droid
 					2130968786,
 					2130968983};
 			
-			// aapt resource value: 0x7F070638
-			public const int TextAppearance_android_fontFamily = 2131166776;
+			// aapt resource value: 0x7F060638
+			public const int TextAppearance_android_fontFamily = 2131101240;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -17705,8 +17345,8 @@ namespace CantPay.Droid
 					2130968894,
 					2130968895};
 			
-			// aapt resource value: 0x7F070652
-			public const int TextInputLayout_android_hint = 2131166802;
+			// aapt resource value: 0x7F060652
+			public const int TextInputLayout_android_hint = 2131101266;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -17794,8 +17434,8 @@ namespace CantPay.Droid
 					2130968759,
 					2130968760};
 			
-			// aapt resource value: 0x7F070681
-			public const int ThemeEnforcement_android_textAppearance = 2131166849;
+			// aapt resource value: 0x7F060681
+			public const int ThemeEnforcement_android_textAppearance = 2131101313;
 			
 			// aapt resource value: 0x1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
@@ -17834,8 +17474,8 @@ namespace CantPay.Droid
 					2130969028,
 					2130969029};
 			
-			// aapt resource value: 0x7F070685
-			public const int Toolbar_android_gravity = 2131166853;
+			// aapt resource value: 0x7F060685
+			public const int Toolbar_android_gravity = 2131101317;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -17933,8 +17573,8 @@ namespace CantPay.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070721
-			public const int ViewBackgroundHelper_android_background = 2131167009;
+			// aapt resource value: 0x7F060721
+			public const int ViewBackgroundHelper_android_background = 2131101473;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -17947,8 +17587,8 @@ namespace CantPay.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070725
-			public const int ViewStubCompat_android_id = 2131167013;
+			// aapt resource value: 0x7F060725
+			public const int ViewStubCompat_android_id = 2131101477;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -17956,8 +17596,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070715
-			public const int View_android_focusable = 2131166997;
+			// aapt resource value: 0x7F060715
+			public const int View_android_focusable = 2131101461;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
@@ -17977,22 +17617,6 @@ namespace CantPay.Droid
 			}
 			
 			private Styleable()
-			{
-			}
-		}
-		
-		public partial class Xml
-		{
-			
-			// aapt resource value: 0x7F080002
-			public const int xamarin_essentials_fileprovider_file_paths = 2131230722;
-			
-			static Xml()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Xml()
 			{
 			}
 		}

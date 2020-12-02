@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantPay.iOS", "CantPay\Cant
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantPay.UWP", "CantPay\CantPay.UWP\CantPay.UWP.csproj", "{E03038F0-E450-4667-83B5-90F2C2296064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CantPay", "CantPay\CantPay\CantPay.csproj", "{2324FEAF-0E3B-4375-BA13-891398D0B7F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CantPay", "CantPay\CantPay\CantPay.csproj", "{2324FEAF-0E3B-4375-BA13-891398D0B7F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

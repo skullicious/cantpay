@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "2f1a4589bad56dc843a5aab073351b19364a6460"
+    "signature": "d3437461eecf4ab01128ec70e4e55e4fc33a9302"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "CantPay/1.0.0": {
         "dependencies": {
-          "Microsoft.Azure.Mobile.Client": "4.2.0",
+          "Microsoft.Azure.Mobile.Client": "2.0.0",
           "Microsoft.Data.OData": "5.8.4",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
@@ -22,18 +22,29 @@
           "CantPay.dll": {}
         }
       },
-      "Microsoft.Azure.Mobile.Client/4.2.0": {
+      "Microsoft.Azure.Mobile.Client/2.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.3",
-          "System.Numerics.Vectors": "4.5.0"
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Net.Http": "2.2.28",
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Azure.Mobile.Client.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
+          "lib/net45/Microsoft.WindowsAzure.Mobile.Ext.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.31125.0"
+          },
+          "lib/net45/Microsoft.WindowsAzure.Mobile.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.31125.0"
           }
         }
       },
+      "Microsoft.Bcl/1.1.9": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {},
       "Microsoft.Data.Edm/5.8.4": {
         "runtime": {
           "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
@@ -112,6 +123,22 @@
           }
         }
       },
+      "Microsoft.Net.Http/2.2.28": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.9",
+          "Microsoft.Bcl.Build": "1.0.14"
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Extensions.dll": {
+            "assemblyVersion": "2.2.28.0",
+            "fileVersion": "2.2.28.0"
+          },
+          "lib/net45/System.Net.Http.Primitives.dll": {
+            "assemblyVersion": "4.2.28.0",
+            "fileVersion": "4.2.28.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -184,7 +211,7 @@
       "System.Memory/4.5.3": {
         "dependencies": {
           "System.Buffers": "4.4.0",
-          "System.Numerics.Vectors": "4.5.0",
+          "System.Numerics.Vectors": "4.4.0",
           "System.Runtime.CompilerServices.Unsafe": "4.5.2"
         },
         "runtime": {
@@ -194,11 +221,11 @@
           }
         }
       },
-      "System.Numerics.Vectors/4.5.0": {
+      "System.Numerics.Vectors/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {
-            "assemblyVersion": "4.1.4.0",
-            "fileVersion": "4.6.26515.6"
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.6.25519.3"
           }
         }
       },
@@ -290,12 +317,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Azure.Mobile.Client/4.2.0": {
+    "Microsoft.Azure.Mobile.Client/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bSfSCtIMqlBD90TXKfv0zUOZ4I7BXdoFE+q/O2jhMF25hVgkc3DfI5X4RvPO85wqkwPyyR7e+LBFWs43T0G+yA==",
-      "path": "microsoft.azure.mobile.client/4.2.0",
-      "hashPath": "microsoft.azure.mobile.client.4.2.0.nupkg.sha512"
+      "sha512": "sha512-IJezkDmlm1Hw9KFiGS6aVksNR80AogKX7VDSjT6/Ig3U5Tc0Ua0KHpXne9VhFMfVIrB7lwEHcqZbqnpHC8RSRA==",
+      "path": "microsoft.azure.mobile.client/2.0.0",
+      "hashPath": "microsoft.azure.mobile.client.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USQ55innJy8K+tAXvVa1O8dUTp2s7pmJ5cJj6Tl02HtGc2xBDj0P2QH5620HbGXIWKWYhydoeQF8Rm/JRDBGhw==",
+      "path": "microsoft.bcl/1.1.9",
+      "hashPath": "microsoft.bcl.1.1.9.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hashPath": "microsoft.bcl.build.1.0.14.nupkg.sha512"
     },
     "Microsoft.Data.Edm/5.8.4": {
       "type": "package",
@@ -310,6 +351,13 @@
       "sha512": "sha512-dK+jMmswaFFWLcgpz9jE8Kwi+LSUkfGVp+MY2egIB7K6ZPWPxiDSTo2I48bpRiMm18nF02/XJL5NwIWH10/l/Q==",
       "path": "microsoft.data.odata/5.8.4",
       "hashPath": "microsoft.data.odata.5.8.4.nupkg.sha512"
+    },
+    "Microsoft.Net.Http/2.2.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hPL9k+rPIpAj84RZSq3WtJkOD9uMStBovAIAz/0OQ+9hQIwQ2XqQlAhMqI4kw0XDxweJySIqNTMlkhRRuthcPQ==",
+      "path": "microsoft.net.http/2.2.28",
+      "hashPath": "microsoft.net.http.2.2.28.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -381,12 +429,12 @@
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
-    "System.Numerics.Vectors/4.5.0": {
+    "System.Numerics.Vectors/4.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
-      "path": "system.numerics.vectors/4.5.0",
-      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.2": {
       "type": "package",

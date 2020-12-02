@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>20EC58D1FBB9CAE6963E2BAE74C803103C0DA5FE6152F386146F73E88A1DB145</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>535A3CE6282362FB3AF13A9F3BF99E0FCE6118ECBFF43DFBEDBF88C761AFE477</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5803de15-6ad1-47f7-a46d-742dc638b2a9_1.0.0.0_x86__96pd015mx93qe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5803de15-6ad1-47f7-a46d-742dc638b2a9_96pd015mx93qe!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5803de15-6ad1-47f7-a46d-742dc638b2a9</RegisteredPackageID>
@@ -30,21 +30,189 @@
     <AppXManifest Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-26T17:18:29.268</Modified>
+      <Modified>2020-12-02T13:20:45.776</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\CantPay.UWP.exe">
       <PackagePath>entrypoint\CantPay.UWP.exe</PackagePath>
-      <Modified>2020-11-26T17:18:28.721</Modified>
+      <Modified>2020-12-02T13:20:45.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.azure.mobile.client\2.0.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+      <Modified>2015-11-25T11:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.azure.mobile.client\2.0.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+      <Modified>2015-11-25T11:35:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\Microsoft.Data.Edm.dll">
+      <PackagePath>Microsoft.Data.Edm.dll</PackagePath>
+      <Modified>2018-08-13T22:22:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\de\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>de\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\es\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>es\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\fr\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>fr\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\it\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>it\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\ja\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>ja\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\ko\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>ko\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\ru\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>ru\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\zh-Hans\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.edm\5.8.4\lib\netstandard1.1\zh-Hant\Microsoft.Data.Edm.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Data.Edm.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\Microsoft.Data.OData.dll">
+      <PackagePath>Microsoft.Data.OData.dll</PackagePath>
+      <Modified>2018-08-13T22:22:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\de\Microsoft.Data.OData.resources.dll">
+      <PackagePath>de\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\es\Microsoft.Data.OData.resources.dll">
+      <PackagePath>es\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\fr\Microsoft.Data.OData.resources.dll">
+      <PackagePath>fr\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\it\Microsoft.Data.OData.resources.dll">
+      <PackagePath>it\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\ja\Microsoft.Data.OData.resources.dll">
+      <PackagePath>ja\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\ko\Microsoft.Data.OData.resources.dll">
+      <PackagePath>ko\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\ru\Microsoft.Data.OData.resources.dll">
+      <PackagePath>ru\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\zh-Hans\Microsoft.Data.OData.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\zh-Hant\Microsoft.Data.OData.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Data.OData.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.net.http\2.2.28\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2014-07-21T12:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.net.http\2.2.28\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2014-07-21T12:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-11-09T00:56:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-11-20T09:09:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\sqlite-net-pcl\1.7.335\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2020-05-16T01:38:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\sqlitepclraw.bundle_green\2.0.3\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-05-01T13:35:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\sqlitepclraw.core\2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-05-01T13:35:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-04-07T18:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.3\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2020-05-01T13:35:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T18:38:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\System.Spatial.dll">
+      <PackagePath>System.Spatial.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\de\System.Spatial.resources.dll">
+      <PackagePath>de\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\es\System.Spatial.resources.dll">
+      <PackagePath>es\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\fr\System.Spatial.resources.dll">
+      <PackagePath>fr\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\it\System.Spatial.resources.dll">
+      <PackagePath>it\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\ja\System.Spatial.resources.dll">
+      <PackagePath>ja\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\ko\System.Spatial.resources.dll">
+      <PackagePath>ko\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\ru\System.Spatial.resources.dll">
+      <PackagePath>ru\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\zh-Hans\System.Spatial.resources.dll">
+      <PackagePath>zh-Hans\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\system.spatial\5.8.4\lib\netstandard1.1\zh-Hant\System.Spatial.resources.dll">
+      <PackagePath>zh-Hant\System.Spatial.resources.dll</PackagePath>
+      <Modified>2018-08-13T22:22:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\xam.plugin.geolocator\4.5.0.6\lib\uap10.0.10240\Plugin.Geolocator.dll">
+      <PackagePath>Plugin.Geolocator.dll</PackagePath>
+      <Modified>2018-05-23T10:27:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\xamarin.forms\4.8.0.1687\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -72,7 +240,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.dll">
       <PackagePath>CantPay.dll</PackagePath>
-      <Modified>2020-11-26T17:18:27.785</Modified>
+      <Modified>2020-12-02T13:20:44.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -223,11 +391,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-11-26T17:17:07.841</Modified>
+      <Modified>2020-12-02T13:19:27.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-11-26T17:17:07.841</Modified>
+      <Modified>2020-12-02T13:19:27.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.16299.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -247,11 +415,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-11-26T17:05:07.536</Modified>
+      <Modified>2020-12-02T13:02:38.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Core\CantPay.UWP.exe">
       <PackagePath>CantPay.UWP.exe</PackagePath>
-      <Modified>2020-11-26T17:18:29.265</Modified>
+      <Modified>2020-12-02T13:20:45.772</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

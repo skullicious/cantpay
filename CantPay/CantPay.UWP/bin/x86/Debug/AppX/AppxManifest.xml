@@ -23,6 +23,15 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="DE" />
+    <Resource Language="ES" />
+    <Resource Language="FR" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="KO" />
+    <Resource Language="RU" />
+    <Resource Language="ZH-HANS" />
+    <Resource Language="ZH-HANT" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="CantPay.UWP.exe" EntryPoint="CantPay.UWP.App">

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CantPay.LoginPage"
+             NavigationPage.HasNavigationBar="false"
+             >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#a6e54c">
+
+            <Button 
+                    BackgroundColor="#8bac0f" 
+                    TextColor="#0f380f"               
+                    BorderRadius="1"
+                    BorderColor="#306230"
+                    BorderWidth="2"    
+                    HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                    Command="{Binding LoginCommand}"
+                    Text="Login"
+                 FontFamily="{StaticResource NormalFont}" 
+                     />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
