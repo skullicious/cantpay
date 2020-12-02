@@ -22,8 +22,10 @@ namespace CantPay.ViewModel.Commands
         }
 
         public void Execute(object parameter)
+
         {
-            loginVM.Login();
+            var authType = (string)parameter;
+           loginVM.Login(authType);
         }
     }
 }

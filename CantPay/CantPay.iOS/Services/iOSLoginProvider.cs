@@ -9,9 +9,10 @@ namespace CantPay.iOS.Services
 {
     public class iOSLoginProvider : ILoginProvider
     {
-        public async Task LoginAsync(MobileServiceClient client)
+        public async Task LoginAsync(MobileServiceClient client, string authType)
         {
-            await client.LoginAsync(RootView, "facebook");
+            await client.LoginAsync(RootView, authType);
+            //await client.LoginAsync(RootView, "facebook");
         }
 
         public UIViewController RootView => UIApplication.SharedApplication.KeyWindow.RootViewController;

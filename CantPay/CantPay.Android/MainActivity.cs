@@ -69,6 +69,13 @@ namespace CantPay.Droid
             }
         }
 
+        protected override void OnResume()
+        {
+            base.OnResume();
+
+            Xamarin.Essentials.Platform.OnResume();            
+        }
+
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
         {

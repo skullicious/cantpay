@@ -41,10 +41,10 @@
     <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\58\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\59\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\60\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\67\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\68\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\69\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\70\jl\bin\classes.jar</Jar>
+    <Jar>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\71\jl\bin\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\5\jl\res</ResolvedResourceDirectory>
@@ -63,10 +63,11 @@
     <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\54\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\55\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\57\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\64\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\67\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\61\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\65\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\68\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\69\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\70\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\90\lp\5\jl\assets</ResolvedAssetDirectory>
@@ -75,7 +76,8 @@
     <ResolvedAssetDirectory>obj\Debug\90\lp\26\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\90\lp\27\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\90\lp\28\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\90\lp\64\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\90\lp\61\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\90\lp\65\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -95,9 +97,10 @@
     <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\54.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\55.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\57.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\64.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\67.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\61.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\65.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\68.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\69.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\test\source\repos\CantPay\CantPay\CantPay.Android\obj\Debug\90\lp\70.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

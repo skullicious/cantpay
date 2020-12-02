@@ -18,7 +18,7 @@ namespace CantPay.ViewModel
             LoginCommand = new LoginCommand(this);
         }
 
-         public async void Login()
+         public async void Login(string authType)
          {
 
             if (IsBusy)
@@ -29,7 +29,7 @@ namespace CantPay.ViewModel
             {
                 var cloudService = ServiceLocator.Instance.Resolve<ICloudService>();
 
-                await cloudService.LoginAsync();
+                await cloudService.LoginAsync(authType);
 
                 await Application.Current.MainPage.Navigation.PushAsync(new MenuPage());
             }

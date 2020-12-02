@@ -9,6 +9,6 @@ namespace CantPay.Interfaces
     {
         ICloudTable<T> GetTable<T>() where T : TableData;
 
-        Task LoginAsync();
+        Task LoginAsync(string authgType);
     }
 }

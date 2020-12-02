@@ -26,9 +26,10 @@ namespace CantPay.Droid.Services
             this.context = context;
         }
 
-        public async Task LoginAsync(MobileServiceClient client)
+        public async Task LoginAsync(MobileServiceClient client, string authType)
         {
-            await client.LoginAsync(context, "facebook");
+            await client.LoginAsync(context, authType);
+            //await client.LoginAsync(context, "facebook");
         }
     }
 }

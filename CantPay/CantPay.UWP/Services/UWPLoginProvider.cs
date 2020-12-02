@@ -13,9 +13,9 @@ namespace CantPay.UWP.Services
 {
     public class UWPLoginProvider : ILoginProvider
     {
-        public async Task LoginAsync(MobileServiceClient client)
+        public async Task LoginAsync(MobileServiceClient client, string authType)
         {
-            await client.LoginAsync("facebook");
+            await client.LoginAsync(authType);
         }
     }
 }

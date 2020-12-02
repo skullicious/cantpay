@@ -16,17 +16,21 @@ namespace CantPay.Services
         {
             client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
         }
-
+       
         public ICloudTable<T> GetTable<T>() where T : TableData
         {
             return new AzureCloudTable<T>(client);
         }
 
-        public Task LoginAsync()
+        //public ICloudTable<T> GetTable<T>() where T : TableData => new AzureCloudTable<T>(client);
+  
+        public Task LoginAsync(string authType)
         {
             var loginProvider = DependencyService.Get<ILoginProvider>();
 
-            return loginProvider.LoginAsync(client);
+            return loginProvider.LoginAsync(client, authType);
         }
+
+      
     }
 }
