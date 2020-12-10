@@ -2,6 +2,8 @@ CantPay
 FormsViewGroup
 Microsoft.Data.Edm
 Microsoft.Data.OData
+Microsoft.IdentityModel.Clients.ActiveDirectory
+Microsoft.IdentityModel.Clients.ActiveDirectory.Platform
 Microsoft.WindowsAzure.Mobile
 Microsoft.WindowsAzure.Mobile.Ext
 Newtonsoft.Json
@@ -75,3 +77,4 @@ System.Resources.ResourceManager
 System.Reflection.Extensions
 System.Diagnostics.Tools
 System.Linq.Queryable
+System.Runtime.Serialization.Json

@@ -30,6 +30,8 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\ko\Microsof
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\ru\Microsoft.Data.OData.resources.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Newtonsoft.Json.dll

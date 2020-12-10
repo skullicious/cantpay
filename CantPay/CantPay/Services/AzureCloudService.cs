@@ -1,4 +1,5 @@
-﻿using CantPay.Interfaces;
+﻿using CantPay.Helpers;
+using CantPay.Interfaces;
 using Microsoft.WindowsAzure.MobileServices;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,11 @@ namespace CantPay.Services
 
         public AzureCloudService()
         {
-            client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
+            //client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
+            client = new MobileServiceClient(Locations.AppServiceUrl);
+
+            if (Locations.AlernateLoginHost != null)
+                client.AlternateLoginHost = new Uri(Locations.AlernateLoginHost);
         }
        
         public ICloudTable<T> GetTable<T>() where T : TableData

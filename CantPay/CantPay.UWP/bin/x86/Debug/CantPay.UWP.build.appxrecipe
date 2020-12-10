@@ -94,6 +94,12 @@
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\zh-Hant\Microsoft.Data.OData.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Data.OData.resources.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.8\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.8\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.net.http\2.2.28\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
     </AppxPackagedFile>

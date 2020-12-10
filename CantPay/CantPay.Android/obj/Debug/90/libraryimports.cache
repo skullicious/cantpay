@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <ManifestDocuments>
-    <ManifestDocument>obj\Debug\90\lp\23\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\25\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\90\lp\26\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\27\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\28\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\29\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\30\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\31\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\33\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\90\lp\34\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\35\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\36\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\37\jl\AndroidManifest.xml</ManifestDocument>
@@ -36,27 +34,27 @@
     <ManifestDocument>obj\Debug\90\lp\58\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\59\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\60\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\90\lp\68\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Debug\90\lp\69\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\61\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\62\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\70\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\90\lp\71\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\72\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\90\lp\73\jl\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
   <NativeLibraries />
   <Jars>
     <Jar>obj\Debug\90\lp\1\jl\formsviewgroup.jar</Jar>
-    <Jar>obj\Debug\90\lp\22\jl\android.arch.core.common.jar</Jar>
-    <Jar>obj\Debug\90\lp\23\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\24\jl\android.arch.lifecycle.common.jar</Jar>
+    <Jar>obj\Debug\90\lp\24\jl\android.arch.core.common.jar</Jar>
     <Jar>obj\Debug\90\lp\25\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\26\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\26\jl\android.arch.lifecycle.common.jar</Jar>
     <Jar>obj\Debug\90\lp\27\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\28\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\29\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\30\jl\com.android.support.support-annotations.jar</Jar>
+    <Jar>obj\Debug\90\lp\30\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\31\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\32\jl\com.android.support.collections.jar</Jar>
+    <Jar>obj\Debug\90\lp\32\jl\com.android.support.support-annotations.jar</Jar>
     <Jar>obj\Debug\90\lp\33\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\34\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\34\jl\com.android.support.collections.jar</Jar>
     <Jar>obj\Debug\90\lp\35\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\36\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\37\jl\bin\classes.jar</Jar>
@@ -83,9 +81,11 @@
     <Jar>obj\Debug\90\lp\58\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\59\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\60\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\68\jl\bin\classes.jar</Jar>
-    <Jar>obj\Debug\90\lp\69\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\61\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\62\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\70\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\90\lp\71\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\72\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\90\lp\73\jl\bin\classes.jar</Jar>
   </Jars>
 </Paths>

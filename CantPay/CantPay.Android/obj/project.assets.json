@@ -113,6 +113,17 @@
           }
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/3.13.8": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
+        }
+      },
       "Microsoft.Net.Http/2.2.28": {
         "type": "package",
         "dependencies": {
@@ -1243,6 +1254,7 @@
         "dependencies": {
           "Microsoft.Azure.Mobile.Client": "2.0.0",
           "Microsoft.Data.OData": "5.8.4",
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.13.8",
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "4.8.0.1687",
@@ -1559,6 +1571,39 @@
         "lib/sl4/zh-Hant/Microsoft.Data.OData.resources.dll",
         "microsoft.data.odata.5.8.4.nupkg.sha512",
         "microsoft.data.odata.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/3.13.8": {
+      "sha512": "RAYmpEVVnl8qWdPmm62k9wm6MUB9H4Gk3l7uBADDCCQJDOkpTAINzgWHTBF8hkaTHFLaGIfgOeeLcKT+K1PG7A==",
+      "type": "package",
+      "path": "microsoft.identitymodel.clients.activedirectory/3.13.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
+        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/MonoAndroid10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/Xamarin.iOS10/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.XML",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/portable-net45+win/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "microsoft.identitymodel.clients.activedirectory.3.13.8.nupkg.sha512",
+        "microsoft.identitymodel.clients.activedirectory.nuspec"
       ]
     },
     "Microsoft.Net.Http/2.2.28": {
@@ -3207,6 +3252,7 @@
     "MonoAndroid,Version=v9.0": [
       "CantPay >= 1.0.0",
       "Microsoft.Azure.Mobile.Client >= 2.0.0",
+      "Microsoft.IdentityModel.Clients.ActiveDirectory >= 3.13.8",
       "Newtonsoft.Json >= 12.0.3",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
       "Xamarin.Android.Support.v4 >= 28.0.0.3",
@@ -3264,6 +3310,10 @@
           "Microsoft.Azure.Mobile.Client": {
             "target": "Package",
             "version": "[2.0.0, )"
+          },
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+            "target": "Package",
+            "version": "[3.13.8, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

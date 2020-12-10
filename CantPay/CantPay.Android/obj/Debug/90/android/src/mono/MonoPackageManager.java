@@ -111,6 +111,8 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Microsoft.Data.Edm.dll",
 		"Microsoft.Data.OData.dll",
+		"Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+		"Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
 		"Microsoft.WindowsAzure.Mobile.dll",
 		"Microsoft.WindowsAzure.Mobile.Ext.dll",
 		"Newtonsoft.Json.dll",

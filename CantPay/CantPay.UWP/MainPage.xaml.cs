@@ -26,7 +26,13 @@ namespace CantPay.UWP
 
             Xamarin.FormsMaps.Init("88oaL9fxECEGV8mqWUWJ~gYs6QIjzv5f8BYeXK_WX9A~AswlvpKDVhmRMasv-bOy-dE-NEf7_eJeMWC1pV1CkrGmqB9O7YvjbA2olgbKT4LY"); // https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/map/setup#universal-windows-platform
 
-            LoadApplication(new CantPay.App());
+
+            string dbName = "cantpay_db.sqlite";
+            string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
+            string fullPath = Path.Combine(folderPath, dbName);
+
+            LoadApplication(new CantPay.App(fullPath));
+         
         }
     }
 }

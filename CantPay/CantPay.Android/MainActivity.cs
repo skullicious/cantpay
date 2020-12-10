@@ -11,6 +11,8 @@ using System.IO;
 using CantPay.Droid.Services;
 using Xamarin.Forms;
 using CantPay.Interfaces;
+using Android.Content;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
 namespace CantPay.Droid
 {
@@ -74,6 +76,12 @@ namespace CantPay.Droid
             base.OnResume();
 
             Xamarin.Essentials.Platform.OnResume();            
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            AuthenticationAgentContinuationHelper.SetAuthenticationAgentContinuationEventArgs(requestCode, resultCode, data);
         }
 
 

@@ -11,13 +11,13 @@
                HorizontalOptions="FillAndExpand"
                Margin="0,100,0,100"
                />
-            <Label     HorizontalOptions="Center" 
-                       Margin="10" 
-                       TextColor="#0f380f"
-                       VerticalOptions="CenterAndExpand" 
-                       Text="Can't Pay? We'll Take It Away!" 
-                       FontFamily="{StaticResource NormalFont}" />
-    
+        <Label     HorizontalOptions="Center" 
+                           Margin="10" 
+                           TextColor="#0f380f"
+                           VerticalOptions="CenterAndExpand" 
+                           Text="Can't Pay? We'll Take It Away!" 
+                           FontFamily="{StaticResource NormalFont}" />
+
         <!--<Button x:Name="seedButton" 
                 Text="Seed World!" FontFamily="{StaticResource NormalFont}" 
                 Margin="150,50,150,200"

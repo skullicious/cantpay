@@ -5173,6 +5173,7 @@ containing a value of this type.
         public static final int add=0x7f0e0039;
         public static final int adjust_height=0x7f0e0029;
         public static final int adjust_width=0x7f0e002a;
+        public static final int agentWebView=0x7f0e0106;
         public static final int alertTitle=0x7f0e0089;
         public static final int all=0x7f0e006e;
         public static final int always=0x7f0e004a;
@@ -5254,7 +5255,7 @@ containing a value of this type.
         public static final int main_tablayout=0x7f0e0100;
         public static final int main_toolbar=0x7f0e00ff;
         public static final int main_viewpager=0x7f0e0101;
-        public static final int masked=0x7f0e0107;
+        public static final int masked=0x7f0e0108;
         public static final int media_actions=0x7f0e00f1;
         public static final int message=0x7f0e00a6;
         public static final int middle=0x7f0e0043;
@@ -5403,7 +5404,7 @@ containing a value of this type.
         public static final int up=0x7f0e0009;
         public static final int useLogo=0x7f0e0038;
         public static final int view_offset_helper=0x7f0e001b;
-        public static final int visible=0x7f0e0106;
+        public static final int visible=0x7f0e0107;
         public static final int volume_item_container=0x7f0e00de;
         public static final int wide=0x7f0e002d;
         public static final int withText=0x7f0e004e;
@@ -5525,6 +5526,7 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f040052;
         public static final int tabbar=0x7f040053;
         public static final int toolbar=0x7f040054;
+        public static final int webauthenticationbroker=0x7f040055;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;
@@ -5532,6 +5534,7 @@ containing a value of this type.
         public static final int launcher_foreground=0x7f030002;
     }
     public static final class string {
+        public static final int ApplicationName=0x7f0a0061;
         public static final int abc_action_bar_home_description=0x7f0a002b;
         public static final int abc_action_bar_up_description=0x7f0a002c;
         public static final int abc_action_menu_overflow_description=0x7f0a002d;

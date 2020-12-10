@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-02T13:20:45.776</Modified>
+      <Modified>2020-12-10T15:52:51.364</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\CantPay.UWP.exe">
       <PackagePath>entrypoint\CantPay.UWP.exe</PackagePath>
-      <Modified>2020-12-02T13:20:45.094</Modified>
+      <Modified>2020-12-10T15:52:50.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.azure.mobile.client\2.0.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -125,6 +125,14 @@
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.data.odata\5.8.4\lib\netstandard1.1\zh-Hant\Microsoft.Data.OData.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Data.OData.resources.dll</PackagePath>
       <Modified>2018-08-13T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.8\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</PackagePath>
+      <Modified>2016-12-02T13:41:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.identitymodel.clients.activedirectory\3.13.8\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</PackagePath>
+      <Modified>2016-12-02T13:41:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\microsoft.net.http\2.2.28\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
@@ -240,7 +248,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.dll">
       <PackagePath>CantPay.dll</PackagePath>
-      <Modified>2020-12-02T13:20:44.192</Modified>
+      <Modified>2020-12-10T15:35:09.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -391,11 +399,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-02T13:19:27.574</Modified>
+      <Modified>2020-12-10T15:52:50.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-12-02T13:19:27.574</Modified>
+      <Modified>2020-12-10T15:52:50.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.16299.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -415,11 +423,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-02T13:02:38.822</Modified>
+      <Modified>2020-12-10T15:32:58.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\test\source\repos\CantPay\CantPay\CantPay.UWP\bin\x86\Debug\Core\CantPay.UWP.exe">
       <PackagePath>CantPay.UWP.exe</PackagePath>
-      <Modified>2020-12-02T13:20:45.772</Modified>
+      <Modified>2020-12-10T15:52:51.361</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

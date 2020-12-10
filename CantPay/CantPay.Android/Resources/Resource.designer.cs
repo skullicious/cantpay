@@ -26,6 +26,9 @@ namespace CantPay.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Id.agentWebView = global::CantPay.Droid.Resource.Id.agentWebView;
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.Layout.WebAuthenticationBroker = global::CantPay.Droid.Resource.Layout.WebAuthenticationBroker;
+			global::Microsoft.IdentityModel.Clients.ActiveDirectory.Resource.String.ApplicationName = global::CantPay.Droid.Resource.String.ApplicationName;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::CantPay.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::CantPay.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::CantPay.Droid.Resource.Attribute.font;
@@ -12038,6 +12041,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7f0e002a
 			public const int adjust_width = 2131623978;
 			
+			// aapt resource value: 0x7f0e0106
+			public const int agentWebView = 2131624198;
+			
 			// aapt resource value: 0x7f0e0089
 			public const int alertTitle = 2131624073;
 			
@@ -12281,8 +12287,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7f0e0101
 			public const int main_viewpager = 2131624193;
 			
-			// aapt resource value: 0x7f0e0107
-			public const int masked = 2131624199;
+			// aapt resource value: 0x7f0e0108
+			public const int masked = 2131624200;
 			
 			// aapt resource value: 0x7f0e00f1
 			public const int media_actions = 2131624177;
@@ -12728,8 +12734,8 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7f0e001b
 			public const int view_offset_helper = 2131623963;
 			
-			// aapt resource value: 0x7f0e0106
-			public const int visible = 2131624198;
+			// aapt resource value: 0x7f0e0107
+			public const int visible = 2131624199;
 			
 			// aapt resource value: 0x7f0e00de
 			public const int volume_item_container = 2131624158;
@@ -13115,6 +13121,9 @@ namespace CantPay.Droid
 			// aapt resource value: 0x7f040054
 			public const int Toolbar = 2130968660;
 			
+			// aapt resource value: 0x7f040055
+			public const int WebAuthenticationBroker = 2130968661;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -13149,6 +13158,9 @@ namespace CantPay.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f0a0061
+			public const int ApplicationName = 2131361889;
 			
 			// aapt resource value: 0x7f0a002b
 			public const int abc_action_bar_home_description = 2131361835;

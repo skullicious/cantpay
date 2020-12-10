@@ -19,10 +19,12 @@ namespace CantPay
         public App()
         {
             
-            InitializeComponent();            
+            InitializeComponent();
 
-         //   MainPage = new NavigationPage(new MainPage());      
-          
+            MainPage = new NavigationPage(new MainPage());
+
+            //   MainPage = new NavigationPage(new MainPage());      
+
         }
 
         public App(string databaseLocation)

@@ -1294,6 +1294,7 @@ int id activity_chooser_view_content 0x7f0e0076
 int id add 0x7f0e0039
 int id adjust_height 0x7f0e0029
 int id adjust_width 0x7f0e002a
+int id agentWebView 0x7f0e0106
 int id alertTitle 0x7f0e0089
 int id all 0x7f0e006e
 int id always 0x7f0e004a
@@ -1375,7 +1376,7 @@ int id main_appbar 0x7f0e00fe
 int id main_tablayout 0x7f0e0100
 int id main_toolbar 0x7f0e00ff
 int id main_viewpager 0x7f0e0101
-int id masked 0x7f0e0107
+int id masked 0x7f0e0108
 int id media_actions 0x7f0e00f1
 int id message 0x7f0e00a6
 int id middle 0x7f0e0043
@@ -1524,7 +1525,7 @@ int id unlabeled 0x7f0e005a
 int id up 0x7f0e0009
 int id useLogo 0x7f0e0038
 int id view_offset_helper 0x7f0e001b
-int id visible 0x7f0e0106
+int id visible 0x7f0e0107
 int id volume_item_container 0x7f0e00de
 int id wide 0x7f0e002d
 int id withText 0x7f0e004e
@@ -1640,9 +1641,11 @@ int layout shellcontent 0x7f040051
 int layout support_simple_spinner_dropdown_item 0x7f040052
 int layout tabbar 0x7f040053
 int layout toolbar 0x7f040054
+int layout webauthenticationbroker 0x7f040055
 int mipmap icon 0x7f030000
 int mipmap icon_round 0x7f030001
 int mipmap launcher_foreground 0x7f030002
+int string ApplicationName 0x7f0a0061
 int string abc_action_bar_home_description 0x7f0a002b
 int string abc_action_bar_up_description 0x7f0a002c
 int string abc_action_menu_overflow_description 0x7f0a002d
