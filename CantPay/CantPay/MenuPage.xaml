@@ -5,7 +5,10 @@
              x:Name="BindingAnchor"
              NavigationPage.HasNavigationBar="false">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#a6e54c"> 
+        <StackLayout BackgroundColor="#a6e54c">
+            <Label Text="Logged in user"></Label>
+            <Label Text="{Binding User}"></Label>
+            <Label Text="-------------"></Label>
             <CollectionView ItemsSource="{Binding ObservedMenuItems}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"

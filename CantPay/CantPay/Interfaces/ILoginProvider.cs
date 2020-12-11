@@ -8,6 +8,8 @@ namespace CantPay.Interfaces
 {
     public interface ILoginProvider
     {
-        Task LoginAsync(MobileServiceClient client, string authType);
+        Task<MobileServiceUser> LoginAsync(MobileServiceClient client, string authType);
+
+        MobileServiceUser RetrieveTokenFromSecureStore();
     }
 }

@@ -1,4 +1,5 @@
-﻿using CantPay.Interfaces;
+﻿using CantPay.Helpers;
+using CantPay.Interfaces;
 using CantPay.Models;
 using CantPay.ViewModel.Commands;
 using System;
@@ -15,10 +16,22 @@ namespace CantPay.ViewModel
 
         public ObservableCollection<MenuItemModel> ObservedMenuItems { get; set; }
 
+        
+
+        ICloudService cloudService;
+
+        public ICloudTable<TodoItem> Table { get; set; }
+
         public NavigationCommand NavCommand { get; set; }
-               
+        
+
         public MenuVM()
         {
+            //
+            cloudService = ServiceLocator.Instance.Resolve<ICloudService>();
+            Table = cloudService.GetTable<TodoItem>();
+
+
            NavCommand = new NavigationCommand(this);
 
             ObservedMenuItems = new ObservableCollection<MenuItemModel>()

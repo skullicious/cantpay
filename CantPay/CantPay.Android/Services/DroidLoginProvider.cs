@@ -23,10 +23,14 @@ namespace CantPay.Droid.Services
     {
         Context context;
 
+   
+
         public void Init(Context context)
         {
             this.context = context;
         }
+                  
+
 
 
         //Login via ADAL
@@ -54,16 +58,21 @@ namespace CantPay.Droid.Services
         public async Task LoginAsync(MobileServiceClient client, string authType)
         {
 
-         //   client flow;
-         //   var accessToken = await LoginADALAsync();
-         //   var zumoPayload = new JObject();
-         //   zumoPayload["access_token"] = accessToken;
-         //   await client.LoginAsync(authType, zumoPayload);
+            //   client flow;
+            var accessToken = await LoginADALAsync();
+            var zumoPayload = new JObject();
+            zumoPayload["access_token"] = accessToken;
+            await client.LoginAsync(authType, zumoPayload);
 
 
             // Server-flow
-            await client.LoginAsync(context, authType);
+            //await client.LoginAsync(context, authType);
             //await client.LoginAsync(context, "facebook");
+        }
+
+        public MobileServiceUser RetrieveTokenFromSecureStore()
+        {
+            throw new NotImplementedException();
         }
     }
 }
