@@ -8,6 +8,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Net.Http;
 
 namespace CantPay.Services
 {
@@ -16,9 +17,13 @@ namespace CantPay.Services
         MobileServiceClient client;
 
         public AzureCloudService()
+        
         {
+           
+            
+
             //client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
-            client = new MobileServiceClient(Locations.AppServiceUrl);
+            client = new MobileServiceClient(Locations.AppServiceUrl, new AuthenticationDelegatingHandler());
 
             if (Locations.AlernateLoginHost != null)
                 client.AlternateLoginHost = new Uri(Locations.AlernateLoginHost);
@@ -42,7 +47,7 @@ namespace CantPay.Services
                 //user has already been authenticated = attemp to refresh token
                 try
                 {
-                    //  var refreshed = await client.RefreshUserAsync();    //IMPLEMENT
+                 var refreshed = await client.RefreshUserAsync();    //IMPLEMENT
                     //if (refreshed != null)
                     // {
                     //     loginProvider.RetrieveTokenFromSecureStore(refreshed);
@@ -58,15 +63,15 @@ namespace CantPay.Services
         if (client.CurrentUser != null && !IsTokenExpired(client.CurrentUser.MobileServiceAuthenticationToken))
         {
             //user has been authenticated already.. no refresh required
-            //  return client.CurrentUser;
+              return client.CurrentUser;
         }
 
         //Credentials are required
         await loginProvider.LoginAsync( client,authType);
         if (client.CurrentUser != null)
         {
-            //We were able to log in!
-            // Store the token.
+                //We were able to log in!
+                loginProvider.StoreTokenInSecureStore(client.CurrentUser);
         }
 
         return client.CurrentUser;
@@ -106,7 +111,6 @@ namespace CantPay.Services
 
 
         }
-
      
     }
 }

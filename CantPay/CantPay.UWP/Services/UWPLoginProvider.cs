@@ -33,10 +33,10 @@ namespace CantPay.UWP.Services
                 //check for token if available in vault
            
              
-                var acct = PasswordVault.FindAllByResource("CantPay").FirstOrDefault();
+                var acct = PasswordVault.FindAllByResource("cantpay").FirstOrDefault();
                 if (acct != null)
                 {
-                    var token = PasswordVault.Retrieve("CantPay", acct.UserName).Password;
+                    var token = PasswordVault.Retrieve("cantpay", acct.UserName).Password;
                     if (token != null && token.Length > 0)
                     {
                         return new MobileServiceUser(acct.UserName)
@@ -87,6 +87,11 @@ namespace CantPay.UWP.Services
 
             // Server-Flow Version
             // return await client.LoginAsync("aad");
+        }
+
+        public void StoreTokenInSecureStore(MobileServiceUser user)
+        {
+            PasswordVault.Add(new PasswordCredential("cantpay", user.UserId, user.MobileServiceAuthenticationToken));
         }
     }
 }

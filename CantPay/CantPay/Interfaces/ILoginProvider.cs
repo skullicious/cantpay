@@ -11,5 +11,7 @@ namespace CantPay.Interfaces
         Task<MobileServiceUser> LoginAsync(MobileServiceClient client, string authType);
 
         MobileServiceUser RetrieveTokenFromSecureStore();
+
+        void StoreTokenInSecureStore(MobileServiceUser user);
     }
 }
