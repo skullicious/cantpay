@@ -9,26 +9,44 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.Net.Http;
+using CantPay.Models;
 
 namespace CantPay.Services
 {
     public class AzureCloudService : ICloudService
     {
         MobileServiceClient client;
+        List<AppServiceIdentity> identities = null;
 
         public AzureCloudService()
         
-        {
-           
-            
-
-            //client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
+        {        
+           //client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
             client = new MobileServiceClient(Locations.AppServiceUrl, new AuthenticationDelegatingHandler());
 
             if (Locations.AlernateLoginHost != null)
                 client.AlternateLoginHost = new Uri(Locations.AlernateLoginHost);
         }
-       
+
+
+
+        public async Task<AppServiceIdentity> GetIdentityAsync()
+        {
+            if (client.CurrentUser == null || client.CurrentUser?.MobileServiceAuthenticationToken == null)
+            {
+                throw new InvalidOperationException("Not Authenticated");
+            }
+
+            if (identities == null)
+            {
+                identities = await client.InvokeApiAsync<List<AppServiceIdentity>>("/.auth/me");
+            }
+
+            if (identities.Count > 0)
+                return identities[0];
+            return null;
+        }
+
         public ICloudTable<T> GetTable<T>() where T : TableData
         {
             return new AzureCloudTable<T>(client);
@@ -48,11 +66,12 @@ namespace CantPay.Services
                 try
                 {
                  var refreshed = await client.RefreshUserAsync();    //IMPLEMENT
-                    //if (refreshed != null)
-                    // {
-                    //     loginProvider.RetrieveTokenFromSecureStore(refreshed);
-                    //      return refreshed;
-                    // }
+                      if (refreshed != null)
+                      {
+                        // loginProvider.RetrieveTokenFromSecureStore(refreshed);
+                        loginProvider.StoreTokenInSecureStore(refreshed);
+                         return refreshed;
+                      }
                 }
                 catch (Exception refreshException)
                 {
@@ -78,7 +97,8 @@ namespace CantPay.Services
         // return loginProvider.LoginAsync(client, authType);
     }
 
-        
+       
+
         bool IsTokenExpired(string token)
         {
             //grab JWT element of token

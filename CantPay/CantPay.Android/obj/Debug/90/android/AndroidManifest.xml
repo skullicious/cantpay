@@ -16,9 +16,8 @@
     <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAgMtR9KQiRDx43Tt_UG3nvWxHw0Ibmd6M" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    <activity android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity" />
     <activity android:label="Sign in" android:name="md524f2e29bab7a049a8b5ad5093047fb79.AuthenticationAgentActivity" />
-    <activity android:label="Web Authenticator" android:name="md59c760537790dc8bb2814082f948671c6.FormAuthenticatorActivity" />
-    <activity android:label="Web Authenticator" android:name="md59c760537790dc8bb2814082f948671c6.WebAuthenticatorActivity" />
     <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />

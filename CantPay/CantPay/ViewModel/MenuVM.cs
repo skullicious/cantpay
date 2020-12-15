@@ -1,38 +1,47 @@
 ﻿using CantPay.Helpers;
 using CantPay.Interfaces;
 using CantPay.Models;
+using CantPay.Services;
 using CantPay.ViewModel.Commands;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Diagnostics;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
+
 
 namespace CantPay.ViewModel
 {
-    public class MenuVM : INavigable
+    public class MenuVM  : BaseVM, INavigable
     {
 
         public ObservableCollection<MenuItemModel> ObservedMenuItems { get; set; }
-
-        
-
+               
         ICloudService cloudService;
 
         public ICloudTable<TodoItem> Table { get; set; }
 
         public NavigationCommand NavCommand { get; set; }
+
+        public Command GetDataCommand { get; }
         
 
         public MenuVM()
         {
-            //
-            cloudService = ServiceLocator.Instance.Resolve<ICloudService>();
-            Table = cloudService.GetTable<TodoItem>();
 
+           
+
+           cloudService = ServiceLocator.Instance.Resolve<ICloudService>();
+
+           Table = cloudService.GetTable<TodoItem>();
 
            NavCommand = new NavigationCommand(this);
+
+            GetDataCommand = new Command(async () => await ExecuteGetDataCommand());
 
             ObservedMenuItems = new ObservableCollection<MenuItemModel>()
             {
@@ -47,6 +56,40 @@ namespace CantPay.ViewModel
                         new MenuItemModel(){Title="About", BgImageSource="XXX", NavigationTarget= new AboutPage()}
             };
                         
+        }
+
+        void OnCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            Debug.WriteLine("[TaskList] OnCollectionChanged: Items have changed");
+        }
+
+
+       
+        async Task ExecuteGetDataCommand()
+        {
+            if (IsBusy)
+                return;
+            IsBusy = true;
+
+            try
+            {
+                var identity = await cloudService.GetIdentityAsync();
+                if (identity != null)
+                {                   
+                    var name = identity.UserClaims.FirstOrDefault(c => c.Type.Equals("name")).Value;
+                  
+                }
+                var list = await Table.ReadAllItemsAsync();
+            //    Items.ReplaceRange(list);
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage.DisplayAlert("Items Not Loaded", ex.Message, "OK");
+            }
+            finally
+            {
+                IsBusy = false;
+            }
         }
 
         public  async void Navigate(object parameter)

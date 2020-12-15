@@ -30,10 +30,12 @@ namespace CantPay.UWP.Services
         {
             try
             {
-                //check for token if available in vault
-           
+                //check for token if available in vault         
              
                 var acct = PasswordVault.FindAllByResource("cantpay").FirstOrDefault();
+
+              // acct = null;
+                
                 if (acct != null)
                 {
                     var token = PasswordVault.Retrieve("cantpay", acct.UserName).Password;
@@ -82,7 +84,7 @@ namespace CantPay.UWP.Services
             // Client Flow
             var accessToken = await LoginADALASync();
             var zumoPayload = new JObject();
-            zumoPayload["access_token"] = accessToken;
+            zumoPayload["access_token"] = accessToken;  
             return await client.LoginAsync(authtype, zumoPayload);
 
             // Server-Flow Version

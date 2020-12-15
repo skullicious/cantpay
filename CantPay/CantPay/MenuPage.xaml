@@ -9,6 +9,20 @@
             <Label Text="Logged in user"></Label>
             <Label Text="{Binding User}"></Label>
             <Label Text="-------------"></Label>
+
+            <Button 
+                    BackgroundColor="#8bac0f" 
+                    TextColor="#0f380f"               
+                    BorderRadius="1"
+                    BorderColor="#306230"
+                    BorderWidth="2"    
+                    HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                    Command="{Binding GetDataCommand}"                  
+                    Text="Get Data!"
+                 FontFamily="{StaticResource NormalFont}" 
+                     />
+            
             <CollectionView ItemsSource="{Binding ObservedMenuItems}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"

@@ -1,4 +1,5 @@
-﻿using Microsoft.WindowsAzure.MobileServices;
+﻿using CantPay.Models;
+using Microsoft.WindowsAzure.MobileServices;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,5 +14,7 @@ namespace CantPay.Interfaces
         //Task LoginAsync(string authType);
 
         Task<MobileServiceUser> LoginAsync(string authType);
+
+        Task<AppServiceIdentity> GetIdentityAsync();
     }
 }

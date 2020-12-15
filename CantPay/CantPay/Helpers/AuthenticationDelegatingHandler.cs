@@ -6,31 +6,39 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Net;
+using System.Diagnostics;
 
 namespace CantPay.Helpers
 {
     class AuthenticationDelegatingHandler : DelegatingHandler
     {
-        protected async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken, string authType)
+        protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
             //Clone request in case of re-issue
             var clone = await CloneHttpRequestMessageAsync(request);
 
             //Now perform request
             var response = await base.SendAsync(request, cancellationToken);
-        {
-        //Request was 404 - We will LoginAsync,
-        //which will refresh if appropriate, if not will prompt for credentials
-        var user = await ServiceLocator.Instance.Resolve<ICloudService>().LoginAsync(authType); //Remove Authtype?
+            {
+                if (response.StatusCode == HttpStatusCode.Unauthorized)
+                {
+                    //Request was 401 - We will LoginAsync,
+                    //which will refresh if appropriate, if not will prompt for credentials
+                    var user = await ServiceLocator.Instance.Resolve<ICloudService>().LoginAsync(""); //Remove Authtype?
 
-        //now retry request with cloned request. Remove and replace X-ZUM-AUTH header with new auth token.
-        clone.Headers.Remove("X-ZUMO-AUTH");
-        clone.Headers.Add("X-ZUMO-AUTH", user.MobileServiceAuthenticationToken);
-        response = await base.SendAsync(clone, cancellationToken);
-        }
-            return response;
-        }
-               
+                    //now retry request with cloned request. Remove and replace X-ZUM-AUTH header with new auth token.
+                    clone.Headers.Remove("X-ZUMO-AUTH");
+                    clone.Headers.Add("X-ZUMO-AUTH", user.MobileServiceAuthenticationToken);
+                    response = await base.SendAsync(clone, cancellationToken);
+                }
+                else if (response.StatusCode == HttpStatusCode.Forbidden)
+                {
+                    Debug.WriteLine("");
+                }                             
+                return response;
+            }
+        }       
         //Clone HttpRequestMessage
 
         public static async Task<HttpRequestMessage> CloneHttpRequestMessageAsync(HttpRequestMessage req)
