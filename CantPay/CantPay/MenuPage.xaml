@@ -22,7 +22,21 @@
                     Text="Get Data!"
                  FontFamily="{StaticResource NormalFont}" 
                      />
-            
+
+
+            <Button 
+                    BackgroundColor="#8bac0f" 
+                    TextColor="#0f380f"               
+                    BorderRadius="1"
+                    BorderColor="#306230"
+                    BorderWidth="2"    
+                    HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                    Command="{Binding LogoutCommand}"                  
+                    Text="Log Out!"
+                 FontFamily="{StaticResource NormalFont}" 
+                     />
+
             <CollectionView ItemsSource="{Binding ObservedMenuItems}">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"

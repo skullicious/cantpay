@@ -70,7 +70,22 @@ namespace CantPay.Droid.Services
             //await client.LoginAsync(context, "facebook");
         }
 
+        public void RemoveTokenFromSecureStore()
+        {
+            throw new NotImplementedException();
+        }
+
         public MobileServiceUser RetrieveTokenFromSecureStore()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void StoreTokenInSecureStore(MobileServiceUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<MobileServiceUser> ILoginProvider.LoginAsync(MobileServiceClient client, string authType)
         {
             throw new NotImplementedException();
         }

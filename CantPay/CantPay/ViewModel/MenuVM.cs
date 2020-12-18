@@ -28,7 +28,16 @@ namespace CantPay.ViewModel
         public NavigationCommand NavCommand { get; set; }
 
         public Command GetDataCommand { get; }
-        
+
+        public Command LogoutCommand { get; }
+
+
+        ObservableRangeCollection<TodoItem> items = new ObservableRangeCollection<TodoItem>();
+        public ObservableRangeCollection<TodoItem> Items
+        {
+            get { return items; }
+            set { SetProperty(ref items, value, "Items"); }
+        }
 
         public MenuVM()
         {
@@ -42,6 +51,8 @@ namespace CantPay.ViewModel
            NavCommand = new NavigationCommand(this);
 
             GetDataCommand = new Command(async () => await ExecuteGetDataCommand());
+
+            LogoutCommand = new Command(async () => await ExecuteLogoutCommand());
 
             ObservedMenuItems = new ObservableCollection<MenuItemModel>()
             {
@@ -64,6 +75,29 @@ namespace CantPay.ViewModel
         }
 
 
+        async Task ExecuteLogoutCommand()
+        {
+            if (IsBusy)
+                return;
+            IsBusy = true;
+
+            try
+            {
+                var cloudService = ServiceLocator.Instance.Resolve<ICloudService>();
+                await cloudService.LogOutAsync();
+           
+                await Application.Current.MainPage.Navigation.PushAsync(new LoginPage());
+            }
+            catch (Exception ex)
+            {
+                await Application.Current.MainPage.DisplayAlert("Logout Failed", ex.Message, "Ok");
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+
        
         async Task ExecuteGetDataCommand()
         {
@@ -80,11 +114,12 @@ namespace CantPay.ViewModel
                   
                 }
                 var list = await Table.ReadAllItemsAsync();
-            //    Items.ReplaceRange(list);
+                Items.ReplaceRange(list);
             }
             catch (Exception ex)
             {
-                await Application.Current.MainPage.DisplayAlert("Items Not Loaded", ex.Message, "OK");
+                // Handling Debug environment behaviour - need to revise
+                //await Application.Current.MainPage.DisplayAlert("Items Not Loaded", ex.Message, "OK");
             }
             finally
             {

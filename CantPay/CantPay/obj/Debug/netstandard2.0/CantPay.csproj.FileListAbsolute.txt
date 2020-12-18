@@ -1,3 +1,6 @@
+C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.deps.json
+C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.dll
+C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\HelpPage.xaml.g.cs
@@ -12,10 +15,7 @@ C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\Sett
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.csproj.CoreCompileInputs.cache
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.AssemblyInfoInputs.cache
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.AssemblyInfo.cs
-C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.csprojAssemblyReference.cache
-C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.deps.json
-C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.dll
-C:\Users\test\source\repos\CantPay\CantPay\CantPay\bin\Debug\netstandard2.0\CantPay.pdb
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.dll
 C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.pdb
+C:\Users\test\source\repos\CantPay\CantPay\CantPay\obj\Debug\netstandard2.0\CantPay.csprojAssemblyReference.cache

@@ -13,5 +13,7 @@ namespace CantPay.Interfaces
         MobileServiceUser RetrieveTokenFromSecureStore();
 
         void StoreTokenInSecureStore(MobileServiceUser user);
+
+        void RemoveTokenFromSecureStore();
     }
 }

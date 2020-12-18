@@ -15,6 +15,8 @@ namespace CantPay.Interfaces
 
         Task<MobileServiceUser> LoginAsync(string authType);
 
+        Task LogOutAsync();
+
         Task<AppServiceIdentity> GetIdentityAsync();
     }
 }

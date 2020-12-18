@@ -1,3 +1,6 @@
+CantPay.Droid.MainActivity, CantPay.Android;md564324b557cd2b91a7e61f2838418f324.MainActivity
+CantPay.Droid.MainActivity;md564324b557cd2b91a7e61f2838418f324.MainActivity
+cantpay.droid.MainActivity;md564324b557cd2b91a7e61f2838418f324.MainActivity
 Microsoft.WindowsAzure.MobileServices.RedirectUrlActivity, Microsoft.Azure.Mobile.Client;com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity
 Microsoft.WindowsAzure.MobileServices.RedirectUrlActivity;com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity
 com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity;com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity

@@ -16,16 +16,22 @@ namespace CantPay.Services
     public class AzureCloudService : ICloudService
     {
         MobileServiceClient client;
+
+        MobileServiceClient testClient;
+
         List<AppServiceIdentity> identities = null;
 
         public AzureCloudService()
         
-        {        
-           //client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
+        {
+            //client = new MobileServiceClient("https://travelappxbackend.azurewebsites.net");
             client = new MobileServiceClient(Locations.AppServiceUrl, new AuthenticationDelegatingHandler());
 
-            if (Locations.AlernateLoginHost != null)
-                client.AlternateLoginHost = new Uri(Locations.AlernateLoginHost);
+            testClient = new MobileServiceClient(Locations.AlternateLoginHost, new AuthenticationDelegatingHandler());
+
+
+            if (Locations.AlternateLoginHost != null)
+                client.AlternateLoginHost = new Uri(Locations.AlternateLoginHost);
         }
 
 
@@ -39,7 +45,20 @@ namespace CantPay.Services
 
             if (identities == null)
             {
-                identities = await client.InvokeApiAsync<List<AppServiceIdentity>>("/.auth/me");
+                try
+                {
+                    identities = await client.InvokeApiAsync<List<AppServiceIdentity>>("/.auth/me");               
+                   //var client = new HttpClientHandler(new Uri(Locations()))
+                   //var client = new HttpClient(new Uri(Locations.AlernateLoginHost ?? Locations.AppServiceUrl));
+
+                    //identities = await testClient.InvokeApiAsync<List<AppServiceIdentity>>("/.auth/me");
+
+                }
+                catch (Exception ex)
+                {
+                    //polyfill style
+                    identities = await testClient.InvokeApiAsync<List<AppServiceIdentity>>("/.auth/me");
+                }
             }
 
             if (identities.Count > 0)
@@ -53,6 +72,28 @@ namespace CantPay.Services
         }
 
         //public ICloudTable<T> GetTable<T>() where T : TableData => new AzureCloudTable<T>(client);
+
+        public async Task LogOutAsync()
+        {
+            if (client.CurrentUser == null || client.CurrentUser.MobileServiceAuthenticationToken == null)
+                return;
+
+            //Logout of ID Provider if logged in
+            var authUri = new Uri($"{testClient.MobileAppUri}/.auth/logout");
+
+            using (var httpClient = new HttpClient())
+            {
+                httpClient.DefaultRequestHeaders.Add("X-ZUMO-AUTH", client.CurrentUser.MobileServiceAuthenticationToken);
+                await httpClient.GetAsync(authUri);
+            }
+
+            //Remove token from cache using Dependency service
+            DependencyService.Get<ILoginProvider>().RemoveTokenFromSecureStore();
+
+            //Remove the token from Mobile Service Client
+            await client.LogoutAsync();
+        }
+
   
         public async Task<MobileServiceUser> LoginAsync(string authType)
         {

@@ -26,6 +26,24 @@ namespace CantPay.UWP.Services
             PasswordVault = new PasswordVault();
         }
 
+
+        public void RemoveTokenFromSecureStore()
+        {
+            try
+            {
+                //Check if token is in vault
+                var acct = PasswordVault.FindAllByResource("cantpay").FirstOrDefault();
+                if (acct != null)
+                {
+                    PasswordVault.Remove(acct);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Error retrieving existing token: {ex.Message}");
+            }
+        }
+
         public MobileServiceUser RetrieveTokenFromSecureStore()
         {
             try
@@ -34,7 +52,7 @@ namespace CantPay.UWP.Services
              
                 var acct = PasswordVault.FindAllByResource("cantpay").FirstOrDefault();
 
-              // acct = null;
+               //acct = null;
                 
                 if (acct != null)
                 {
@@ -69,7 +87,8 @@ namespace CantPay.UWP.Services
                 authContext = new AuthenticationContext(authContext.TokenCache.ReadItems().First().Authority);
             }
             var authResult = await authContext.AcquireTokenAsync(
-                Locations.AppServiceUrl, /* Resource we want to access */
+                 Locations.AlternateLoginHost, /* Resource we want to access */
+                //Locations.AppServiceUrl, /* Resource we want to access */
                 Locations.AadClientId, /*Client Id of Native app */
                 returnUri,  /* return Uri we configured*/
                 new PlatformParameters(PromptBehavior.Auto, false));

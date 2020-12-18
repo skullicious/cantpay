@@ -106,6 +106,7 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "CantPay.Android.dll" comes first in this list. */
+		"CantPay.Android.dll",
 		"CantPay.dll",
 		"FormsViewGroup.dll",
 		"Microsoft.Azure.Mobile.Client.dll",
